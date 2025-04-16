@@ -1,5 +1,10 @@
-div {
+main {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+}
+
+.section1,
+.section2,
+.section3 {
+  height: 100vh;
 }
