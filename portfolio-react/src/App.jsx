@@ -6,7 +6,11 @@ function App() {
 
   return (
     <main>
+      <div className="welcome">
+      <h1>WELCOME</h1>
+      </div>
       <div className="section1">
+        
         <Section1 />
       </div>
       <div className="section2">
