@@ -3,6 +3,7 @@ import kevin2 from "../images/midmidmid.jpg"
 import Leon from "../images/Leon_Joseph_Florentin_Bonnat_-_The_Martyrdom_of_St_Denis_(mural)_-_(MeisterDrucke-90283).jpg"
 import {Quote} from "lucide-react"
 
+
 export function Section1() {
   return <div className="section1_container">
     <section className="grid_container1">
@@ -19,7 +20,6 @@ export function Section1() {
     <img src={kevin2} alt="" />
     <img src={kevin1} alt="" />
     <Quote />
-    <p>kevindeleon102022@gmail.com</p>
     </section>
   </div>
 }
