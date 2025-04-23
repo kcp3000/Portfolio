@@ -8,7 +8,7 @@ function App() {
   return (
     <SmoothScroll>
       <main>
-      <nav className="links">
+        <nav className="links">
           <a href="/">DELEON</a>
           <a href="/">PROJECTS</a>
           <a href="/">ABOUT</a>
@@ -16,19 +16,19 @@ function App() {
           <p className="rectangle"></p>
           <p>NEW YORK, NY</p>
           <p>KEVINDELEON102022@GMAIL.COM</p>
-      </nav>
-      <div className="section1">
-        <Section1 />
-      </div>
-      <div className="section2">
-        <Section2 />
-      </div>
-      <div className="section3">
-        <Section3 />
-      </div>
-    </main>
+        </nav>
+        <div className="section1">
+          <Section1 />
+        </div>
+        <div className="section2">
+          <Section2 />
+        </div>
+        <div className="section3">
+          <Section3 />
+        </div>
+      </main>
     </SmoothScroll>
-    
+
   )
 }
 
