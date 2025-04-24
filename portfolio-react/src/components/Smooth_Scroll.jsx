@@ -32,8 +32,8 @@ import React, {useEffect, useRef, useState} from "react";
     const smoothProgress = useSpring(scrollYProgress, {
         mass: 0.1,
         stiffness: 100,
-        damping: 20,
-        restDeltaL: 0.001,
+        damping: 30,
+        restDeltaL: 0.01,
     });
 
     useMotionValueEvent(smoothProgress, 'change', (latest) => {

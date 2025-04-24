@@ -4,8 +4,11 @@ import Leon from "../images/Leon_Joseph_Florentin_Bonnat_-_The_Martyrdom_of_St_D
 import {Quote} from "lucide-react"
 
 
+
 export function Section1() {
-  return <div className="section1_container">
+
+  return (
+  <div className="section1_container">
     <section className="grid_container1">
       <h1>Kevin</h1>
       <h1>Deleon</h1>
@@ -19,7 +22,6 @@ export function Section1() {
     <h1>Let me show you my piece of reality; I'm here to create.</h1>
     <img src={kevin2} alt="" />
     <img src={kevin1} alt="" />
-    <Quote />
     </section>
-  </div>
+  </div>)
 }
