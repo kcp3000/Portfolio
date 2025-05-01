@@ -13,11 +13,9 @@ function App() {
   return (
   <div>
     <SmoothScroll>
-      <SmoothScroll>
         <NavBar />
-      </SmoothScroll>
         <main>
-          <FadeOut>
+          <FadeOut y={0.35} y2={0.55}>
             <div className="section1">
               <Section1 />
             </div>
