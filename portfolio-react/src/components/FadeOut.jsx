@@ -1,9 +1,9 @@
 import { useScroll, useMotionValueEvent, useTransform, motion } from "motion/react";
 
-const FadeOut = ({children}) => {
+const FadeOut = ({children, y, y2}) => {
     const {scrollYProgress} = useScroll()
 
-    const opacity = useTransform(scrollYProgress, [0.25, 0.45], [1, 0])
+    const opacity = useTransform(scrollYProgress, [y, y2], [1, 0])
 
     return (
         <motion.div 
