@@ -10,7 +10,7 @@ export function Section1() {
   <div className="section1_container">
     <section className="grid_container1">
       <AppearText dur={1}>
-        <h1>Deleon</h1>
+        <h1 className="lastname">DELEON</h1>
       </AppearText>
       <AppearText dur={2.8}>
         <p>FRONTEND</p>
