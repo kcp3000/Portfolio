@@ -15,7 +15,7 @@ function App() {
     <SmoothScroll>
         <NavBar />
         <main>
-          <FadeOut y={0.35} y2={0.55}>
+          <FadeOut y={0.35} y2={0.5}>
             <div className="section1">
               <Section1 />
             </div>
