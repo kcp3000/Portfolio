@@ -28,13 +28,13 @@ export function Section1() {
         <p>2025</p>
       </AppearText>
       <AppearText dur={2}>
-        <img src={Leon} alt="" />
+        <img src={Leon} alt="Leon_Joseph_Florentin_Bonnat_-_The_Martyrdom_of_St_Denis_(mural)_-_(MeisterDrucke-90283)" />
       </AppearText>
       <AppearText dur={2.4}>
-        <img src={Leon} alt="" />
+        <img src={Leon} alt="Leon_Joseph_Florentin_Bonnat_-_The_Martyrdom_of_St_Denis_(mural)_-_(MeisterDrucke-90283)" />
       </AppearText>
       <AppearText dur={2.8}>
-        <img src={Leon} alt="" />
+        <img src={Leon} alt="Leon_Joseph_Florentin_Bonnat_-_The_Martyrdom_of_St_Denis_(mural)_-_(MeisterDrucke-90283)" />
       </AppearText>
     </section>
   </div>)
