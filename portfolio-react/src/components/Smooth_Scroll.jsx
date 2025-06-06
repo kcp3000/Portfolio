@@ -37,9 +37,14 @@ const SmoothScroll = ({ children }) => {
     });
 
     useEffect(() => {
-        if (scrollYProgress.get() === 0) {
-            setIsLoading(false)
-        }
+        const timeout = setTimeout(() => {
+            if (scrollYProgress.get() === 0) {
+                setIsLoading(false)
+            }
+        }, 50)
+
+        return () => clearTimeout(timeout)
+
     }, [scrollYProgress])
 
     useMotionValueEvent(smoothProgress, 'change', (latest) => {
