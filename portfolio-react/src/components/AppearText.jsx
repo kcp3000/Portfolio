@@ -1,21 +1,20 @@
 import { motion, useMotionValueEvent, useScroll } from "motion/react"
 import { useState } from "react";
 
-const AppearText = ({children, dur}) => {
+const AppearText = ({ children, dur }) => {
 
-    const [isLoading, setIsLoading] = useState(false)
-    const {scrollYProgress} = useScroll();
+    // const [isLoading, setIsLoading] = useState(false)
+    // const {scrollYProgress} = useScroll();
 
-    useMotionValueEvent(scrollYProgress, 'change', (latest) => {
-        if (latest === 0) {
-            setIsLoading(true);
-        };
-    });
+    // useMotionValueEvent(scrollYProgress, 'change', (latest) => {
+    //     if (latest === 0) {
+    //         setIsLoading(true);
+    //     };
+    // });
 
-    return (    
-    <div>
-        {isLoading && (
-             <motion.div 
+    return (
+        <div>
+            <motion.div
                 initial={{
                     opacity: "0%",
                 }}
@@ -27,12 +26,12 @@ const AppearText = ({children, dur}) => {
                     duration: dur,
                     ease: 'easeIn'
                 }}
-         >
-             {children}
-         </motion.div>
-        )}
-    </div>
-       
+            >
+                {children}
+            </motion.div>
+
+        </div>
+
     )
 }
 
