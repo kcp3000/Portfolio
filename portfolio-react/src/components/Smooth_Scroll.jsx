@@ -41,7 +41,7 @@ const SmoothScroll = ({ children }) => {
             if (scrollYProgress.get() === 0) {
                 setIsLoading(false)
             }
-        }, 50)
+        }, 100)
 
         return () => clearTimeout(timeout)
 
