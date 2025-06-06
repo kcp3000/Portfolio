@@ -1,7 +1,7 @@
 import { motion, useMotionValueEvent, useScroll, useSpring, useTransform } from "motion/react";
-import React, {useEffect, useRef, useState} from "react";
+import React, { useEffect, useRef, useState } from "react";
 
- const SmoothScroll = ({children}) => {
+const SmoothScroll = ({ children }) => {
 
     const [isLoading, setIsLoading] = useState(true);
 
@@ -28,13 +28,19 @@ import React, {useEffect, useRef, useState} from "react";
     }, [contentRef]);
 
     //intercept normal scroll behavior
-    const {scrollYProgress} = useScroll();
+    const { scrollYProgress } = useScroll();
     const smoothProgress = useSpring(scrollYProgress, {
         mass: 0.1,
         stiffness: 100,
         damping: 30,
         restDeltaL: 0.01,
     });
+
+    useEffect(() => {
+        if (scrollYProgress.get() === 0) {
+            setIsLoading(false)
+        }
+    }, [scrollYProgress])
 
     useMotionValueEvent(smoothProgress, 'change', (latest) => {
         if (latest === 0) {
@@ -48,8 +54,8 @@ import React, {useEffect, useRef, useState} from "react";
 
     return (
         <>
-            <div style={{height: contentHeight}} />
-            <motion.div className="scrolling" ref={contentRef} style={{y: isLoading ? 0 : y, opacity: isLoading ? 0 : 1}}>
+            <div style={{ height: contentHeight }} />
+            <motion.div className="scrolling" ref={contentRef} style={{ y: isLoading ? 0 : y, opacity: isLoading ? 0 : 1 }}>
                 {children}
             </motion.div>
         </>
