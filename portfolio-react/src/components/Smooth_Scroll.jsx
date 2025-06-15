@@ -60,6 +60,9 @@ const SmoothScroll = ({ children }) => {
     if (!initialScrollDone || !hasScrolled) return 0;
     return value * -(contentHeight - windowHeight);
   });
+  useEffect(() => {
+    requestAnimationFrame(() => window.scrollTo(0, 0));
+  });
 
   return (
     <>
