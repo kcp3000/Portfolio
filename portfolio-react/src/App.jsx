@@ -8,11 +8,9 @@ import FadeOut from "./components/FadeOut"
 
 function App() {
 
-
-
   return (
     <div>
-      <NavBar />
+        <NavBar />
       <main>
         <FadeOut y={0.35} y2={0.45}>
           <div className="section1">
@@ -22,6 +20,11 @@ function App() {
         <div className="section2">
           <Section2 />
         </div>
+        <FadeOut y={0.6} y2={0.75}>
+          <div className="section2">
+            <Section2 />
+          </div>
+        </FadeOut>
         <div className="section3">
           <Section3 />
         </div>

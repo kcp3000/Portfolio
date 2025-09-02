@@ -1,3 +1,4 @@
+import { motion, MotionConfig } from "motion/react"
 import { SlideAnimate } from "../components/SlideAnimate"
 
 export function Section3() {
@@ -14,9 +15,19 @@ export function Section3() {
         </SlideAnimate>
         
         <SlideAnimate delay={0.7}>
-          <a href="https://ascentak.github.io/Project-Ascent/" className="link">
-            <p className="block"></p>
+          <MotionConfig
+            transition={{
+              duration: "0.25",
+              ease: "easeInOut"
+            }}  
+          >
+            <a href="https://ascentak.github.io/Project-Ascent/" className="link">
+            <motion.p className="block"
+              whileHover={{scale: 1.05}}
+            ></motion.p>
           </a>
+          </MotionConfig>
+          
         </SlideAnimate>
         <SlideAnimate delay={0.9}>
           <a href="https://waste-wise.onrender.com/" className="link">
