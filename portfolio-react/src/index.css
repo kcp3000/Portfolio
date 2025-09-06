@@ -30,20 +30,15 @@ main {
   font-weight: 700;
 }
 
+.webLink {
+  color: #443842;
+  font-weight: 700
+}
+
 /* ------------------- */
 /* COMPONENTS STYTING */
 /* ------------------- */
 
-/* ------------------- */
-/* SMOOTH-SCROLLING */
-/* ------------------- */
-
-.scrolling {
-  position: fixed;
-  top: 0;
-  display: flex;
-  flex-direction: column;
-}
 
 /* ------------------- */
 /* nav */
@@ -144,13 +139,9 @@ main {
 
 .grid_container1 {
   display: grid;
-  grid-template-columns: repeat(3, 1rem) repeat(4, 5rem) repeat(3, 1rem) 2rem repeat(
-      4,
-      5rem
-    ) 3rem 2rem repeat(2, 1rem) repeat(2, 3rem) repeat(2, 1rem) 2rem 3rem repeat(
-      4,
-      5rem
-    ) 2rem repeat(3, 1rem) 2rem repeat(4, 5rem) 2rem;
+  grid-template-columns: repeat(3, 1rem) repeat(4, 5rem) repeat(3, 1rem) 2rem repeat(4,
+      5rem) 3rem 2rem repeat(2, 1rem) repeat(2, 3rem) repeat(2, 1rem) 2rem 3rem repeat(4,
+      5rem) 2rem repeat(3, 1rem) 2rem repeat(4, 5rem) 2rem;
   grid-template-rows: repeat(35, 1.5rem);
   height: 100%;
   width: 100%;
@@ -496,6 +487,215 @@ img {
   cursor: pointer;
 }
 
+/* y2k section */
+
+.y2k-main {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.y2k-description {
+  display: grid;
+  grid-template-columns: 1rem 1rem 1rem 1rem 1rem repeat(7, 3rem);
+  grid-template-rows: 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem repeat(4, 5rem) 1rem 1rem 1rem 1rem 1rem;
+}
+
+.y2k-description :nth-child(1) {
+  grid-row: 1;
+  grid-column: 1/ span 3;
+  font-size: 5rem;
+}
+
+.y2k-description :nth-child(2) {
+  grid-row: 6;
+  grid-column: 1/span 8;
+  font-style: oblique;
+}
+
+.y2k-description :nth-child(3) {
+  grid-row: 10;
+  grid-column: 6/ span 7;
+}
+
+.y2k-description :nth-child(4) {
+  grid-row: 12;
+  grid-column: 6/ span 5;
+  font-size: smaller;
+  color: #443842;
+}
+
+
+.y2k-pictures {
+  display: grid;
+  grid-template-columns: repeat(15, 3rem);
+  grid-template-rows: 1rem 1rem 1rem 1rem 1rem repeat(11, 5rem);
+  height: 95%;
+}
+
+.y2k-pictures :nth-child(1) {
+  grid-row: 13/ span 2;
+  grid-column: 2/ span 5;
+  /* z-index: 10; */
+}
+
+.y2k-pictures :nth-child(2) {
+  grid-row: 11/ span 2;
+  grid-column: 2/ span 5;
+  /* z-index: 9; */
+}
+
+.y2k-pictures :nth-child(3) {
+  grid-row: 11/span 2;
+  grid-column: 10/ span 5;
+}
+
+.y2k-pictures :nth-child(4) {
+  grid-row: 5/span 2;
+  grid-column: 2/ span 13;
+}
+
+/* wasteWise section */
+
+.waste-main {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.waste-description {
+  display: grid;
+  grid-template-columns: 1rem 1rem 1rem 1rem 1rem repeat(7, 3rem);
+  grid-template-rows: 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem repeat(4, 5rem) 1rem 1rem 1rem 1rem 1rem;
+}
+
+.waste-description :nth-child(1) {
+  grid-row: 1;
+  grid-column: 1/ span 3;
+  font-size: 5rem;
+}
+
+.waste-description :nth-child(2) {
+  grid-row: 6;
+  grid-column: 1/span 8;
+  font-style: oblique;
+}
+
+.waste-description :nth-child(3) {
+  grid-row: 10;
+  grid-column: 6/ span 7;
+}
+
+.waste-description :nth-child(4) {
+  grid-row: 14;
+  grid-column: 6/ span 5;
+  font-size: smaller;
+  color: #443842;
+}
+
+.waste-pictures {
+  display: grid;
+  grid-template-columns: repeat(15, 3rem);
+  grid-template-rows: 1rem 1rem 1rem 1rem 1rem repeat(9, 5rem) 1rem 1rem 1rem 1rem 1rem;
+  height: 95%;
+}
+
+.waste-pictures :nth-child(1) {
+  grid-row: 12/ span 2;
+  grid-column: 10/ span 5;
+  /* z-index: 10; */
+}
+
+.waste-pictures :nth-child(2) {
+  grid-row: 10/ span 2;
+  grid-column: 2/ span 5;
+  /* z-index: 9; */
+}
+
+.waste-pictures :nth-child(3) {
+  grid-row: 10/span 2;
+  grid-column: 10/ span 5;
+}
+
+.waste-pictures :nth-child(4) {
+  grid-row: 5/span 2;
+  grid-column: 2/ span 13;
+}
+
+/* CAW section */
+
+.caw-main {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.caw-description {
+  display: grid;
+  grid-template-columns: 1rem 1rem 1rem 1rem 1rem repeat(7, 3rem);
+  grid-template-rows: 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem repeat(4, 5rem) 1rem 1rem 1rem 1rem 1rem;
+}
+
+.caw-description :nth-child(1) {
+  grid-row: 1;
+  grid-column: 1/ span 3;
+  font-size: 5rem;
+}
+
+.caw-description :nth-child(2) {
+  grid-row: 6;
+  grid-column: 1/span 9;
+  font-style: oblique;
+}
+
+.caw-description :nth-child(3) {
+  grid-row: 10;
+  grid-column: 6/ span 7;
+}
+
+.caw-description :nth-child(4) {
+  grid-row: 14;
+  grid-column: 6/ span 5;
+  font-size: smaller;
+  color: #443842;
+}
+
+.caw-pictures {
+  display: grid;
+  grid-template-columns: repeat(15, 3rem);
+  grid-template-rows: 1rem 1rem 1rem 1rem 1rem repeat(9, 5rem) 1rem 1rem 1rem 1rem 1rem;
+  height: 95%;
+}
+
+.caw-pictures :nth-child(1) {
+  grid-row: 12/ span 2;
+  grid-column: 10/ span 5;
+  /* z-index: 10; */
+}
+
+.caw-pictures :nth-child(2) {
+  grid-row: 10/ span 2;
+  grid-column: 2/ span 5;
+  /* z-index: 9; */
+}
+
+.caw-pictures :nth-child(3) {
+  grid-row: 10/span 2;
+  grid-column: 10/ span 5;
+}
+
+.caw-pictures :nth-child(4) {
+  grid-row: 5/span 2;
+  grid-column: 2/ span 13;
+}
+
+
 /* ------------------- */
 /* MEDIA QUERIES */
 /* ------------------- */
@@ -587,13 +787,9 @@ img {
 
   .grid_container1 {
     display: grid;
-    grid-template-columns: repeat(3, 1rem) repeat(4, 5rem) repeat(3, 1rem) 2rem repeat(
-        4,
-        5rem
-      ) 3rem 2rem repeat(2, 1rem) repeat(2, 3rem) repeat(2, 1rem) 2rem 3rem 2rem repeat(
-        3,
-        1rem
-      ) 1rem 1rem 1rem 2rem repeat(1, 5rem) 3rem 3rem;
+    grid-template-columns: repeat(3, 1rem) repeat(4, 5rem) repeat(3, 1rem) 2rem repeat(4,
+        5rem) 3rem 2rem repeat(2, 1rem) repeat(2, 3rem) repeat(2, 1rem) 2rem 3rem 2rem repeat(3,
+        1rem) 1rem 1rem 1rem 2rem repeat(1, 5rem) 3rem 3rem;
     height: 100%;
     width: 100%;
   }
@@ -804,9 +1000,7 @@ img {
 }
 
 /* TABLETS */
-@media (max-width: 1024px) {
-}
+@media (max-width: 1024px) {}
 
 /* PHONES */
-@media (max-width: 600px) {
-}
+@media (max-width: 600px) {}
