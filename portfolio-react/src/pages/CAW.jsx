@@ -1,5 +1,5 @@
 //https://ascentak.github.io/Project-Ascent/
-// import caw1 from "../images/CAW/caw1.jpg"
+import caw1 from "../images/CAW/caw1.jpg"
 import caw2 from "../images/CAW/caw2.jpg"
 import caw3 from "../images/CAW/caw3.jpg"
 import caw4 from "../images/CAW/caw4.jpg"
