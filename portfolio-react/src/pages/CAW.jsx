@@ -1,8 +1,8 @@
 //https://ascentak.github.io/Project-Ascent/
-import caw1 from "../images/CAW/caw1.jpg"
-import caw2 from "../images/CAW/caw2.jpg"
-import caw3 from "../images/CAW/caw3.jpg"
-import caw4 from "../images/CAW/caw4.jpg"
+import caw1 from "../images/CAW/caw1.JPG"
+import caw2 from "../images/CAW/caw2.JPG"
+import caw3 from "../images/CAW/caw3.JPG"
+import caw4 from "../images/CAW/caw4.JPG"
 import AppearText from "../components/AppearText"
 import { motion } from "motion/react"
 import { Link } from "react-router-dom"
