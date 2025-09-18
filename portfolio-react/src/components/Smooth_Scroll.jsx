@@ -48,6 +48,7 @@ const SmoothScroll = ({ children }) => {
       window.scrollTo(0, 0);
       setInitialScrollDone(true);
     }
+    console.log(`win height: ${windowHeight}. content height: ${contentHeight}`)
   }, [windowHeight, contentHeight]);
 
   useMotionValueEvent(scrollYProgress, "change", (latest) => {
