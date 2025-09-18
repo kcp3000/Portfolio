@@ -1,5 +1,6 @@
 import { motion, MotionConfig } from "motion/react"
 import { SlideAnimate } from "../components/SlideAnimate"
+import { Link } from "react-router-dom"
 
 export function Section3() {
   return (
@@ -9,42 +10,48 @@ export function Section3() {
           <h1>PROJECTS</h1>
         </SlideAnimate>
         <SlideAnimate delay={0.5}>
-          <a href="https://kcp3000.github.io/Y2K/" className="link">
-            <p className="block"></p>
-          </a>
+          <Link to="/Y2K" className="link">
+            <motion.p className="block"
+              whileHover={{ scale: 1.05 }}
+            ></motion.p>
+          </Link>
         </SlideAnimate>
-        
+
         <SlideAnimate delay={0.7}>
           <MotionConfig
             transition={{
               duration: "0.25",
               ease: "easeInOut"
-            }}  
+            }}
           >
-            <a href="https://ascentak.github.io/Project-Ascent/" className="link">
-            <motion.p className="block"
-              whileHover={{scale: 1.05}}
-            ></motion.p>
-          </a>
+            <Link to="/WasteWise" className="link">
+              <motion.p className="block"
+                whileHover={{ scale: 1.05 }}
+              ></motion.p>
+            </Link>
           </MotionConfig>
-          
+
         </SlideAnimate>
         <SlideAnimate delay={0.9}>
-          <a href="https://waste-wise.onrender.com/" className="link">
-            <p className="block"></p>
-          </a>
+          <Link to="/CAW" className="link">
+            <motion.p className="block"
+              whileHover={{ scale: 1.05 }}
+            ></motion.p>
+          </Link>
         </SlideAnimate>
         <SlideAnimate delay={0.6}>
           <h1 className="y2k">Y2K</h1>
         </SlideAnimate>
         <SlideAnimate delay={0.8}>
-          <h1>ASCENT</h1>
-        </SlideAnimate>
-        <SlideAnimate delay={[1]}>
           <h1>WASTE</h1>
         </SlideAnimate>
-        
+        <SlideAnimate delay={[1]}>
+          <h1>CAW</h1>
+        </SlideAnimate>
+
       </section>
     </div>
   )
 }
+
+export default Section3
