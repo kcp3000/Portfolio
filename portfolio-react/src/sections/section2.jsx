@@ -7,22 +7,42 @@ import node from "../images/node-js-icon.png"
 import knex from "../images/knex-js-icon.png"
 import postgres from "../images/Postgresql.png"
 import reacticon from "../images/React-icon.svg.png"
+import bbyPic from "../images/cropped bby pic.jpg"
+import {SlideAnimateX}  from "../components/SlideAnimateX"
+import  SlideAnimateY  from "../components/SlideAnimateY"
 
 export function Section2() {
   return <div className="section2_container">
     <section className="grid_container_section2_text">
-      <div className="line" />
-      <h1>BIO</h1>
-      <p>Hello! I'm a:</p>
-      <p className="bold">FULLSTACK DEVELOPER.</p>
-      <p>
-        I'm well versed in both Frontend and Backend; primarily using Javascript/Typescript and PostgresSQL
-        as my main tech stack, but alway open to learning more! Most importantly, I love to create interesting, off-the-wall designs that leaves a lasting impression.
-        Ultimately, I'm here to
-      </p>
-      <p className="bold">CREATE.</p>
-
+      <SlideAnimateX delay={0.5} xH={-50}>
+        <h1 className="bio">BIO</h1>
+      </SlideAnimateX>
+      <SlideAnimateY delay={1.5} yH={50}>
+        <p>Hello! I'm a . . . </p>
+      </SlideAnimateY>
+      
+      <SlideAnimateY delay={1.5} yH={50}>
+        <p className="fullStack">FULLSTACK DEVELOPER.</p>
+      </SlideAnimateY>
+      <SlideAnimateY delay={1.5} yH={50}>
+        <p>
+          I'm well versed in both Frontend and Backend; primarily using Javascript/Typescript and PostgresSQL
+          as my main tech stack, but alway open to learning more! Most importantly, I love to create interesting, off-the-wall designs that leaves a lasting impression.
+          Ultimately, I'm here to
+        </p>
+      </SlideAnimateY>
+      <SlideAnimateY delay={1.5} yH={50}>
+        <p className="create">CREATE.</p>
+      </SlideAnimateY>
+      <SlideAnimateX delay={1.2} xH={50}>
+         <div className="block2" />
+      </SlideAnimateX>
+     <SlideAnimateX delay={1} xH={50}>
+        <div className="block2" />
+     </SlideAnimateX>
+      
     </section>
+    
     <div className="ticker_container">
       <div className="ticker">
         <ul className="ticker_list_images">
