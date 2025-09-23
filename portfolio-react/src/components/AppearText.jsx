@@ -1,5 +1,5 @@
-import { motion, useMotionValueEvent, useScroll } from "motion/react"
-import { useState } from "react";
+import { motion } from "motion/react"
+
 
 const AppearText = ({ children, dur }) => {
 

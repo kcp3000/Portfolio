@@ -1,5 +1,7 @@
-import Leon from "../images/Leon_Joseph_Florentin_Bonnat_-_The_Martyrdom_of_St_Denis_(mural)_-_(MeisterDrucke-90283).jpg"
 import AppearText from "../components/AppearText"
+import Tilt from "../components/Tilt"
+import SlideAnimateY  from "../components/SlideAnimateY"
+import { SlideAnimateX } from "../components/SlideAnimateX"
 
 
 
@@ -7,34 +9,39 @@ export function Section1() {
 
   return (
     <div className="section1_container">
-      <section className="grid_container1">
+      <section className="grid_container1">    
+        <AppearText dur={2}>
+          <SlideAnimateY delay={2.5} yH={-50}>
+            <h1 className="lastname">DELEON</h1>
+          </SlideAnimateY>
+        </AppearText>
+        <AppearText dur={3}>
+          <SlideAnimateY delay={3.3} yH={-50}>
+            <p>FRONTEND</p>
+          </SlideAnimateY>
+        </AppearText>
+        <AppearText dur={2.6}>
+          <SlideAnimateY delay={3.6} yH={-50}>
+            <p>BACKEND</p>
+          </SlideAnimateY>
+        </AppearText>
+        <AppearText dur={2.4}>
+          <SlideAnimateY delay={3.9} yH={-50}>
+            <p>ARTIST</p>
+          </SlideAnimateY>
+        </AppearText>
         <AppearText dur={1}>
-          <h1 className="lastname">DELEON</h1>
+          <Tilt />
         </AppearText>
-        <AppearText dur={2.8}>
-          <p>FRONTEND</p>
+        <AppearText dur={1.5}>
+          <p>PORTFOLIO</p>
         </AppearText>
-        <AppearText dur={2.4}>
-          <p>BACKEND</p>
-        </AppearText>
-        <AppearText dur={2}>
-          <p>ARTIST</p>
-        </AppearText>
-        <AppearText dur={2.8}>
-          <p>YEAR</p>
-        </AppearText>
-        <AppearText dur={2.4}>
-          <p>2025</p>
-        </AppearText>
-        <AppearText dur={2}>
-          <img src={Leon} alt="Leon_Joseph_Florentin_Bonnat_-_The_Martyrdom_of_St_Denis_(mural)_-_(MeisterDrucke-90283)" />
-        </AppearText>
-        <AppearText dur={2.4}>
-          <img src={Leon} alt="Leon_Joseph_Florentin_Bonnat_-_The_Martyrdom_of_St_Denis_(mural)_-_(MeisterDrucke-90283)" />
-        </AppearText>
-        <AppearText dur={2.8}>
-          <img src={Leon} alt="Leon_Joseph_Florentin_Bonnat_-_The_Martyrdom_of_St_Denis_(mural)_-_(MeisterDrucke-90283)" />
-        </AppearText>
+        <SlideAnimateY delay={3} yH={-50}>
+          <div className="shadow"></div>
+        </SlideAnimateY>
+        <SlideAnimateX delay={4} xH={-1500}>
+          <div className="bar"></div>
+        </SlideAnimateX>
       </section>
     </div>)
 }
