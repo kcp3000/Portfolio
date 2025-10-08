@@ -1,6 +1,6 @@
 import AppearText from "../components/AppearText"
 import Tilt from "../components/Tilt"
-import SlideAnimateY  from "../components/SlideAnimateY"
+import SlideAnimateY from "../components/SlideAnimateY"
 import { SlideAnimateX } from "../components/SlideAnimateX"
 
 
@@ -9,7 +9,7 @@ export function Section1() {
 
   return (
     <div className="section1_container">
-      <section className="grid_container1">    
+      <section className="grid_container1">
         <AppearText dur={2}>
           <SlideAnimateY delay={2.5} yH={-50}>
             <h1 className="lastname">DELEON</h1>
@@ -39,7 +39,7 @@ export function Section1() {
         <SlideAnimateY delay={3} yH={-50}>
           <div className="shadow"></div>
         </SlideAnimateY>
-        <SlideAnimateX delay={4} xH={-1500}>
+        <SlideAnimateX delay={4} xH={-150}>
           <div className="bar"></div>
         </SlideAnimateX>
       </section>
