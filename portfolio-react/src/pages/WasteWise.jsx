@@ -5,6 +5,7 @@ import waste1 from "../images/wasteWise/README.png"
 import waste2 from "../images/wasteWise/waste2.png"
 import waste3 from "../images/wasteWise/waste3.png"
 import waste4 from "../images/wasteWise/waste4.png"
+import { Link } from "react-router-dom"
 
 const WasteWise = () => {
   return <>
@@ -13,9 +14,9 @@ const WasteWise = () => {
         <AppearText dur={0.5}>
           <h1 className="y2kTitle">Waste Wise</h1>
         </AppearText>
-        <a href="//https://waste-wise.onrender.com/" className="webLink">SITE</a>
-        <p>Waste in NYC</p>
-        <p>
+        <a href="//https://waste-wise.onrender.com/" className="Project_link">SITE</a>
+        <p className="prompt">Waste in NYC</p>
+        <p className="mainText">
           <strong className="strong">Bridging</strong> the gap between food insecurity and food waste by redistributing food that is still perfectly edible but would otherwise be thrown away.
           Through our platform, we connect New Yorkers facing hunger with local food banks and meal programs, offering resource locators and nutritional guidance.
           We also promote sustainability by educating the public and showcasing volunteer opportunities, while providing restaurants and companies a simplified food donation network to ensure surplus food reaches people in need.
@@ -23,9 +24,8 @@ const WasteWise = () => {
         </p>
         <AppearText dur={1}>
           <motion.div
-            whileHover={{ scale: 1.1 }}
           >
-            <img src={waste4} alt="Image of the WasteWise website" />
+            <img src={waste1} alt="Image of the WasteWise website" />
           </motion.div>
         </AppearText>
 
@@ -55,9 +55,20 @@ const WasteWise = () => {
               scale: 1.1,
             }}
           >
-            <img className="pic" src={waste1} alt="Image of the WasteWise website" />
+            <img className="pic" src={waste4} alt="Image of the WasteWise website" />
           </motion.div>
         </AppearText>
+        <div className="blockPro"></div>
+        <h1 className="techUsed">TECH USED</h1>
+        <p className="tech">REACT</p>
+        <p className="tech">JS</p>
+        <p className="tech">CSS</p>
+        <p className="tech">HTML</p>
+        <p className="tech">POSTGRES</p>
+        <p className="tech">EXPRESS</p>
+        <p className="tech">FRAMER MOTION</p>
+        <div className="bar"></div>
+        <Link className="Project_link" to="/PROJECTS">more projects</Link>
       </section>
     </main>
   </>
