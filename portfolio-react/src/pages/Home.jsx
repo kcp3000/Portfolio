@@ -15,7 +15,7 @@ function Home() {
           </div>
         </FadeOut>
         <FadeOut y={0.55} y2={0.65}>
-          <FadeIn y={0.1} y2={0.3}>
+          <FadeIn y={0.2} y2={0.4}>
             <div className="section2">
               <Section2 />
             </div>

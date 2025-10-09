@@ -5,16 +5,16 @@ import { Link } from "react-router-dom"
 const NavBar = () => {
     return (
         <AppearText dur={0.5}>
-                <nav className="links">
-                    <Link to="/">HOME</Link>
-                    <Link to="/PROJECTS">PROJECTS</Link>
-                    <a href=".section2">ABOUT</a>
-                    <p className="rectangle"></p>
-                    <p className="rectangle"></p>
-                    <a className="resume" href={resume}>RESUMÉ</a>
-                    <p>KEVINDELEON102022@GMAIL.COM</p>
-                    <p>NEW YORK, NY</p>
-                </nav>
+            <nav className="links">
+                <Link to="/">HOME</Link>
+                <Link to="/PROJECTS">PROJECTS</Link>
+                <Link to="/ABOUT">ABOUT</Link>
+                <p className="rectangle"></p>
+                <p className="rectangle"></p>
+                <a className="resume" href={resume}>RESUMÉ</a>
+                <p>KEVINDELEON102022@GMAIL.COM</p>
+                <p>NEW YORK, NY</p>
+            </nav>
 
         </AppearText>
 
