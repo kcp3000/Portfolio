@@ -470,6 +470,12 @@ img {
   background-color: #443842;
 }
 
+.Project_link {
+  text-decoration: underline;
+  color: #8460A3;
+  font-weight: bold;
+}
+
 .section3_container {
   display: flex;
   justify-content: center;
@@ -592,6 +598,32 @@ img {
   grid-template-rows: 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem repeat(30, 3rem);
 }
 
+.prompt {
+  font-size: 0.7rem;
+  color: #443842;
+  opacity: 60%;
+  font-style: italic;
+}
+
+.techUsed {
+  font-size: 5rem;
+  font-family: Bodoni;
+  color: #443842;
+}
+
+.tech {
+  color: #443842;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.mainText {
+    color: #443842;
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
 .strong {
   font-size: 2rem;
   color: #f45832;
@@ -616,27 +648,17 @@ img {
 .y2k-main :nth-child(2) {
   grid-column: 7;
   grid-row: 12;
-  color: #8460A3;
-  text-decoration: underline;
   transform: translateX(20px);
 }
 
 .y2k-main :nth-child(3) {
   grid-column: 2/ span 3;
   grid-row: 6;
-  font-size: 0.7rem;
-  color: #443842;
-  opacity: 60%;
-  font-style: italic;
 }
 
 .y2k-main :nth-child(4) {
   grid-column: 27 /span 6;
   grid-row: 20;
-  color: #443842;
-  font-weight: bold;
-  font-size: 1.4rem;
-  text-align: center;
 }
 
 .y2k-main :nth-child(5) {
@@ -669,25 +691,16 @@ img {
 .y2k-main :nth-child(10) {
   grid-column: 2/ span 10;
   grid-row: 34;
-  font-size: 5rem;
-  font-family: Bodoni;
-  color: #443842;
 }
 
 .y2k-main :nth-child(11) {
   grid-column: 2;
   grid-row: 37;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #443842;
 }
 
 .y2k-main :nth-child(12) {
   grid-column: 2;
   grid-row: 38;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #443842;
 }
 
 .y2k-main :nth-child(13) {
@@ -701,67 +714,121 @@ img {
   grid-row: 37;
 }
 
+.y2k-main :nth-child(15) {
+  grid-column: 2/span 3;
+  grid-row: 45;
+}
+
 /* wasteWise section */
 
 .waste-main {
-  height: 100vh;
+  height: 180vh;
   display: grid;
   grid-template-columns: repeat(39, 3rem);
-  grid-template-rows: 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem repeat(30, 3rem);
+  grid-template-rows: 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem repeat(29, 3rem);
 }
 
-.waste-description :nth-child(1) {
-  grid-row: 1;
-  grid-column: 1/ span 3;
-  font-size: 5rem;
+.waste-main :nth-child(1) {
+  grid-column: 2/ span 14;
+  grid-row: 2;
 }
 
-.waste-description :nth-child(2) {
-  grid-row: 6;
-  grid-column: 1/span 8;
-  font-style: oblique;
+.waste-main :nth-child(2) {
+  grid-column: 17;
+  grid-row: 9;
 }
 
-.waste-description :nth-child(3) {
-  grid-row: 10;
-  grid-column: 6/ span 7;
+.waste-main :nth-child(3) {
+  grid-column: 2/span 3;
+  grid-row: 3;
 }
 
-.waste-description :nth-child(4) {
-  grid-row: 14;
-  grid-column: 6/ span 5;
-  font-size: smaller;
-  color: #443842;
+.waste-main :nth-child(4) {
+  grid-column: 28/ span 10;
+  grid-row: 17;
+  font-size: 1.2rem;
 }
 
-.waste-pictures {
-  display: grid;
-  grid-template-columns: repeat(15, 3rem);
-  grid-template-rows: 1rem 1rem 1rem 1rem 1rem repeat(9, 5rem) 1rem 1rem 1rem 1rem 1rem;
-  height: 95%;
+/* pics */
+.waste-main :nth-child(5) {
+  grid-column: 2/ span 24; 
+  grid-row: 11;
+  z-index: 2;
 }
 
-.waste-pictures :nth-child(1) {
-  grid-row: 12/ span 2;
-  grid-column: 10/ span 5;
-  /* z-index: 10; */
+.waste-main :nth-child(6) {
+  grid-column: 14/ span 10;
+  grid-row: 34;
 }
 
-.waste-pictures :nth-child(2) {
-  grid-row: 10/ span 2;
+.waste-main :nth-child(7) {
+  grid-column: 25 /span 11;
+  grid-row: 37;
+}
+
+.waste-main :nth-child(8) {
+  grid-column: 14 /span 10;
+  grid-row: 41;
+}
+/* pics */
+
+.waste-main :nth-child(9) {
+  background-color: #443842;
+  grid-column: 3/ span 24;
+  grid-row: 12 /span 18;
+}
+
+.waste-main :nth-child(10) {
+  grid-column: 2/span 10;
+  grid-row: 34;
+}
+
+.waste-main :nth-child(11) {
+  grid-column: 2;
+  grid-row: 37;
+}
+
+.waste-main :nth-child(12) {
+  grid-column: 2;
+  grid-row: 38;
+}
+
+.waste-main :nth-child(13) {
+  grid-column: 2;
+  grid-row: 39;
+}
+
+.waste-main :nth-child(14) {
+  grid-column: 2;
+  grid-row: 40;
+}
+
+.waste-main :nth-child(15) {
+  grid-column: 2;
+  grid-row: 41;
+}
+
+.waste-main :nth-child(16) {
+  grid-column: 2;
+  grid-row: 42;
+}
+
+.waste-main :nth-child(17) {
   grid-column: 2/ span 5;
-  /* z-index: 9; */
+  grid-row: 43;
 }
 
-.waste-pictures :nth-child(3) {
-  grid-row: 10/span 2;
-  grid-column: 10/ span 5;
+.waste-main :nth-child(18) {
+  grid-column: 39;
+  grid-row: 10 /span 40;
+  filter: blur(3px);
 }
 
-.waste-pictures :nth-child(4) {
-  grid-row: 5/span 2;
-  grid-column: 2/ span 13;
+.waste-main :nth-child(19) {
+  grid-column: 2/span 3;
+  grid-row: 45;
 }
+
 
 /* CAW section */
 
@@ -1178,16 +1245,16 @@ img {
 
   /* Y2K Project */
 
-  .y2k-main {
-    height: 170vh;
+  .waste-main {
+    height: 140vh;
     display: grid;
     grid-template-columns: repeat(29, 3rem);
     grid-template-rows: 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem repeat(44, 1.5rem);
   }
 
-  .y2k-main :nth-child(1) {
-    grid-column: 2/ span 3;
-    grid-row: 5;
+  .waste-main :nth-child(1) {
+    grid-column: 2/ span 13;
+    grid-row: 2;
   }
 
   .y2kTitle {
@@ -1197,17 +1264,15 @@ img {
     font-family: Bodoni;
   }
 
-  .y2k-main :nth-child(2) {
-    grid-column: 7;
-    grid-row: 11;
-    color: #8460A3;
-    text-decoration: underline;
-    transform: translateX(5px);
+  .waste-main :nth-child(2) {
+    grid-column: 14;
+    grid-row: 8;
+    transform: translateX(15px);
   }
 
-  .y2k-main :nth-child(3) {
+  .waste-main :nth-child(3) {
     grid-column: 2/ span 3;
-    grid-row: 6;
+    grid-row: 3;
     font-size: 0.7rem;
     color: #443842;
     opacity: 60%;
@@ -1215,86 +1280,105 @@ img {
   }
 
   /* maintext */
-  .y2k-main :nth-child(4) {
-    grid-column: 21/span 6;
-    grid-row: 21;
+  .waste-main :nth-child(4) {
+    grid-column: 21/span 7;
+    grid-row: 13;
     color: #443842;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
   }
 
   /* maintext */
 
-  .y2k-main :nth-child(5) {
+  .waste-main :nth-child(5) {
     grid-column: 2/ span 17;
-    grid-row: 13;
+    grid-row: 10;
     z-index: 2;
   }
 
-  .y2k-main :nth-child(6) {
+  .waste-main :nth-child(6) {
     grid-column: 12 /span 7;
     grid-row: 40;
   }
 
-  .y2k-main :nth-child(7) {
+  .waste-main :nth-child(7) {
     grid-column: 20 /span 7;
     grid-row: 45;
   }
 
-  .y2k-main :nth-child(8) {
+  .waste-main :nth-child(8) {
     grid-column: 12 /span 7;
     grid-row: 50;
   }
 
   /* shadow */
-  .y2k-main :nth-child(9) {
+  .waste-main :nth-child(9) {
     grid-column: 3/span 17;
-    grid-row: 16/ span 20;
+    grid-row: 12/ span 20;
     background-color: #443842;
   }
 
   /* shadow */
 
-  .y2k-main :nth-child(10) {
+  .waste-main :nth-child(10) {
     grid-column: 2/ span 10;
-    grid-row: 39;
-    font-size: 5rem;
-    font-family: Bodoni;
-    color: #443842;
+    grid-row: 36;
   }
 
-  .y2k-main :nth-child(11) {
-    grid-column: 3;
+  .waste-main :nth-child(11) {
+    grid-column: 2;
+    grid-row: 41;
+  }
+
+  .waste-main :nth-child(12) {
+    grid-column: 2;
+    grid-row: 43;
+  }
+
+  .waste-main :nth-child(13) {
+    grid-column: 2;
     grid-row: 45;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #443842;
   }
 
-  .y2k-main :nth-child(12) {
-    grid-column: 3;
+  .waste-main :nth-child(14) {
+    grid-column: 2;
     grid-row: 47;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #443842;
   }
 
-  .y2k-main :nth-child(13) {
-    grid-column: 28;
-    grid-row: 14/span 51;
-    filter: blur(3px);
+    .waste-main :nth-child(15) {
+    grid-column: 2;
+    grid-row: 49;
   }
 
-  .y2k-main :nth-child(14) {
-    grid-column: 4/span 6;
-    grid-row: 44;
+    .waste-main :nth-child(16) {
+    grid-column: 2;
+    grid-row: 51;
+  }
+
+    .waste-main :nth-child(17) {
+    grid-column: 2/span 5;
+    grid-row: 53;
+  }
+
+    .waste-main :nth-child(18) {
+    grid-column: 29;
+    grid-row: 10/ span 56;
+  }
+
+    .waste-main :nth-child(19) {
+    grid-column: 2 /span 3;
+    grid-row: 55;
   }
 
   .strong {
     font-size: 1.5rem;
     color: #f45832;
   }
+
+  /* wastewise */
+
+
 }
 
 /* TABLETS */

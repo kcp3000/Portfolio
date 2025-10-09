@@ -6,6 +6,7 @@ import y2k4 from "../images/y2k/y2k4.png"
 import AppearText from "../components/AppearText"
 import { motion } from "motion/react"
 import jester from "../images/y2k/stanczyk_jester.png"
+import { Link } from "react-router-dom"
 
 const Y2K = () => {
   return <>
@@ -14,11 +15,11 @@ const Y2K = () => {
         <AppearText dur={0.5}>
           <h1 className="y2kTitle">Y2K</h1>
         </AppearText>
-        <a href="https://kcp3000.github.io/Y2K/" className="webLink">SITE</a>
-        <p>YEAR 2000</p>
-        <p>
+        <a href="https://kcp3000.github.io/Y2K/" className="Project_link">SITE</a>
+        <p className="prompt">YEAR 2000</p>
+        <p className="mainText">
           <strong className="strong">THE</strong> start of my coding journey, this website was more of a practice run for my CSS and HTML skills back when I started to really
-          get into coding. It consist of things that I enjoyed utilizing the Y2K's ERA aesthetic.
+          get into coding. It consist of things that I find interesting utilizing the Y2K's ERA aesthetic.
         </p>
         <AppearText dur={1}>
           <motion.div
@@ -59,11 +60,12 @@ const Y2K = () => {
           </motion.div>
         </AppearText>
         <div className="blockPro"></div>
-        <h1>TECH USED</h1>
-        <p>HTML</p>
-        <p>CSS</p>
+        <h1 className="techUsed">TECH USED</h1>
+        <p className="tech">HTML</p>
+        <p className="tech">CSS</p>
         <div className="bar"></div>
         <img src={jester} alt="" />
+        <Link className="Project_link" to="/PROJECTS">more projects</Link>
       </section>
     </main>
   </>
