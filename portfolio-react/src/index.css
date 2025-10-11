@@ -621,7 +621,7 @@ img {
   font-style: italic;
 }
 
-.techUsed {
+.techUsedY2k {
   font-size: 5rem;
   font-family: Bodoni;
   color: #443842;
@@ -633,14 +633,14 @@ img {
   font-size: 1.5rem;
 }
 
-.mainText {
+.mainTextY2k {
   color: #443842;
   font-weight: bold;
   font-size: 1.4rem;
   text-align: center;
 }
 
-.strong {
+.strongY2k {
   font-size: 2rem;
   color: #f45832;
 }
@@ -750,6 +750,18 @@ img {
   font-size: 1.1rem;
   text-align: center;
 }
+
+.strongWaste {
+  font-size: 2rem;
+  color: #f45832;
+}
+
+.techUsedWaste {
+  font-size: 5rem;
+  font-family: Bodoni;
+  color: #443842;
+}
+
 
 .waste-main :nth-child(1) {
   grid-column: 2/ span 14;
@@ -869,7 +881,7 @@ img {
   font-style: italic;
 }
 
-.techUsed {
+.techUsedCAW {
   font-size: 5rem;
   font-family: Bodoni;
   color: #443842;
@@ -881,14 +893,14 @@ img {
   font-size: 1.5rem;
 }
 
-.mainText {
+.mainTextCAW {
     color: #443842;
   font-weight: bold;
   font-size: 1.4rem;
   text-align: center;
 }
 
-.strong {
+.strongCAW {
   font-size: 2rem;
   color: #f45832;
 }
