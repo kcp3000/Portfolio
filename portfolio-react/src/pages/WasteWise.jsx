@@ -25,7 +25,7 @@ const WasteWise = () => {
         </SlideAnimateX>
         <SlideAnimateY delay={2} yH={50}>
           <p className="mainTextWaste">
-            <strong className="strong">Bridging</strong> the gap between food insecurity and food waste by redistributing food that is still perfectly edible but would otherwise be thrown away.
+            <strong className="strongWaste">Bridging</strong> the gap between food insecurity and food waste by redistributing food that is still perfectly edible but would otherwise be thrown away.
             Through our platform, we connect New Yorkers facing hunger with local food banks and meal programs, offering resource locators and nutritional guidance.
             We also promote sustainability by educating the public and showcasing volunteer opportunities, while providing restaurants and companies a simplified food donation network to ensure surplus food reaches people in need.
             All in all, we aim to build a more sustainable and fair food system for our city.

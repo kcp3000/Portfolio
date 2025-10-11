@@ -84,10 +84,10 @@ const CAW = () => {
             <div className="blockPro"></div>
           </SlideAnimateY>
           <SlideAnimateY delay={1} yH={50}>
-            <h1 className="techUsed">BEFORE</h1>
+            <h1 className="techUsedCAW">BEFORE</h1>
           </SlideAnimateY>
           <SlideAnimateY delay={2} yH={50}>
-            <h1 className="techUsed">AFTER</h1>
+            <h1 className="techUsedCAW">AFTER</h1>
           </SlideAnimateY>
           <SlideAnimateY delay={3} yH={50}>
             <div className="bar"></div>
