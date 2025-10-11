@@ -1,51 +1,49 @@
 //https://ascentak.github.io/Project-Ascent/
 import caw1 from "../images/CAW/caw1.JPG"
-import caw2 from "../images/CAW/caw2.JPG"
-import caw3 from "../images/CAW/caw3.JPG"
-import caw4 from "../images/CAW/caw4.JPG"
+import caw2 from "../images/CAW/caw2.png"
+import caw5 from "../images/CAW/caw1.png"
+import oldCover from "../images/CAW/oldCover.png"
+import oldCourt from "../images/CAW/oldCourt.png"
+import oldWelcome from "../images/CAW/oldWelcome.png"
+import oldOur from "../images/CAW/oldOur.png"
+import cawOur from "../images/CAW/caw6Our.png"
+import cawWelcome from "../images/CAW/cawWelcome.png"
 import AppearText from "../components/AppearText"
 import { motion } from "motion/react"
 import { Link } from "react-router-dom"
+import SlideAnimateY from "../components/SlideAnimateY"
+import { SlideAnimateX } from "../components/SlideAnimateX"
+
 
 const CAW = () => {
   return <>
     <main>
       <section className="caw-main">
-        <AppearText dur={0.5}>
-          <div className="caw-description">
-            <p className="webLink">WIP</p>
-            <p>Creative Art Works! (Click to view!)</p>
-            <p>
-              The start of my coding journey, this website was more of a practice run for my CSS and HTML skills back when I started to really
-              get into coding. It consist of things that I enjoyed utilizing the Y2K aesthetic.
-            </p>
-            <Link to={"/"}>
-              HOME
-            </Link>
-          </div>
-
-        </AppearText>
-
-        <div className="y2k-pictures">
-          <AppearText dur={1}>
+        <SlideAnimateX delay={1} xH={-50}>
+            <p className="y2kTitle">CAW</p>
+        </SlideAnimateX>
+        <SlideAnimateX delay={1.5} xH={-50}> 
+          <a className="Project_link" href="https://www.creativeartworks.org/blogpreview/2025/8/30/a-fusion-of-art-and-information">SITE</a>
+        </SlideAnimateX>
+        <SlideAnimateX delay={1.5} xH={-50}>
+          <p className="prompt">Creative Art Works</p>
+        </SlideAnimateX>
+        
+        <SlideAnimateY delay={2} yH={50}>
+           <p className="mainTextCAW">
+            <strong className="strongCAW">Interned</strong> @ CAW (Creative Art Works) for the opportunty to transform the Family Court House booklet for all family courts in NYC! 
+            In the span of ~5 weeks, I along with 17 other talented Young Apprentices using Adobe Indesign worked together to create a booklet worth remebering.
+          </p>
+        </SlideAnimateY>
+         
+          <SlideAnimateY delay={2} yH={50}>
             <motion.div
-              whileHover={{ scale: 1.1 }}
             >
-              <img src={caw4} alt="Image of the Y2K website" />
+              <img src={caw1} alt="Image of the Y2K website" />
             </motion.div>
-          </AppearText>
+          </SlideAnimateY>
 
-          <AppearText dur={1}>
-            <motion.div
-              whileHover={{
-                scale: 1.1,
-              }}
-            >
-              <img className="pic" src={caw3} alt="Image of the Y2K website" />
-            </motion.div>
-          </AppearText>
-
-          <AppearText dur={1}>
+          <SlideAnimateY delay={2} yH={50}>
             <motion.div
               whileHover={{
                 scale: 1.1,
@@ -53,19 +51,86 @@ const CAW = () => {
             >
               <img className="pic" src={caw2} alt="Image of the Y2K website" />
             </motion.div>
-          </AppearText>
+          </SlideAnimateY>
 
-          <AppearText dur={0.5}>
+          <SlideAnimateY delay={2} yH={50}>
             <motion.div
               whileHover={{
                 scale: 1.1,
               }}
             >
-              <img className="pic" src={caw1} alt="Image of the Y2K website" />
+              <img className="pic" src={caw5} alt="Image of the Y2K website" />
             </motion.div>
-
-          </AppearText>
-        </div>
+          </SlideAnimateY>
+          <SlideAnimateY delay={1} yH={50}>
+            <motion.div
+              whileHover={{
+                scale: 1.1,
+              }}
+            >
+              <img className="pic" src={oldCover} alt="Image of the Y2K website" />
+            </motion.div>
+          </SlideAnimateY>
+          <SlideAnimateY delay={1} yH={50}>
+            <motion.div
+              whileHover={{
+                scale: 1.1,
+              }}
+            >
+              <img className="pic" src={oldCourt} alt="Image of the Y2K website" />
+            </motion.div>
+          </SlideAnimateY>
+          <SlideAnimateY delay={3} yH={50}>
+            <div className="blockPro"></div>
+          </SlideAnimateY>
+          <SlideAnimateY delay={1} yH={50}>
+            <h1 className="techUsed">BEFORE</h1>
+          </SlideAnimateY>
+          <SlideAnimateY delay={2} yH={50}>
+            <h1 className="techUsed">AFTER</h1>
+          </SlideAnimateY>
+          <SlideAnimateY delay={3} yH={50}>
+            <div className="bar"></div>
+          </SlideAnimateY>
+          <SlideAnimateX delay={2.5} xH={-50}>
+            <Link className="Project_link" to="/PROJECTS">more projects</Link>
+          </SlideAnimateX>
+          <SlideAnimateY delay={1} yH={50}>
+            <motion.div
+              whileHover={{
+                scale: 1.1,
+              }}
+            >
+              <img className="pic" src={oldWelcome} alt="Image of the Y2K website" />
+            </motion.div>
+          </SlideAnimateY>
+          <SlideAnimateY delay={1} yH={50}>
+            <motion.div
+              whileHover={{
+                scale: 1.1,
+              }}
+            >
+              <img className="pic" src={oldOur} alt="Image of the Y2K website" />
+            </motion.div>
+          </SlideAnimateY>
+          <SlideAnimateY delay={2} yH={50}>
+            <motion.div
+              whileHover={{
+                scale: 1.1,
+              }}
+            >
+              <img className="pic" src={cawOur} alt="Image of the Y2K website" />
+            </motion.div>
+          </SlideAnimateY>
+          <SlideAnimateY delay={2} yH={50}>
+            <motion.div
+              whileHover={{
+                scale: 1.1,
+              }}
+            >
+              <img className="pic" src={cawWelcome} alt="Image of the Y2K website" />
+            </motion.div>
+          </SlideAnimateY>
       </section>
     </main>
   </>

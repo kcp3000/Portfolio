@@ -6,12 +6,12 @@ const NavBar = () => {
     return (
         <AppearText dur={0.5}>
             <nav className="links">
-                <Link to="/">HOME</Link>
-                <Link to="/PROJECTS">PROJECTS</Link>
-                <Link to="/ABOUT">ABOUT</Link>
+                <Link className="interactable" to="/">HOME</Link>
+                <Link className="interactable" to="/PROJECTS">PROJECTS</Link>
+                <Link className="interactable" to="/ABOUT">ABOUT</Link>
                 <p className="rectangle"></p>
                 <p className="rectangle"></p>
-                <a className="resume" href={resume}>RESUMÉ</a>
+                <a className="interactable" href={resume}>RESUMÉ</a>
                 <p>KEVINDELEON102022@GMAIL.COM</p>
                 <p>NEW YORK, NY</p>
             </nav>
