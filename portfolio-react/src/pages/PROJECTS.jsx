@@ -6,13 +6,23 @@ import { Link } from "react-router-dom"
 
 const PROJECT = () => {
   return <>
+    <div className="projects_title">
+      <h1 className="Pro_page">PROJECTS</h1>
+      <p>kindly take a look</p>
+    </div>
     <section className="project_container">
-      <div className="row1">
-
-      </div>
-      <div className="row2">
-        
-      </div>
+      <div className="testblock"></div>
+      <div className="testblock"></div>
+      <div className="Smalltestblock"></div>
+      <div className="Smalltestblock"></div>
+      <div className="testblock"></div>
+      <div className="testblock"></div>
+      <div className="Smalltestblock"></div>
+      <div className="Smalltestblock"></div>
+      <div className="testblock"></div>
+      <div className="testblock"></div>
+      <div className="Smalltestblock"></div>
+      <div className="Smalltestblock"></div>
     </section>
   </>
 }
