@@ -1,4 +1,4 @@
-//https://waste-wise.onrender.com/
+//https://waste-wise.onrender.com
 import AppearText from "../components/AppearText"
 import { motion } from "motion/react"
 import waste1 from "../images/wasteWise/README.png"
@@ -18,10 +18,10 @@ const WasteWise = () => {
           <h1 className="y2kTitle">Waste Wise</h1>
         </SlideAnimateX>
         <SlideAnimateX delay={1.5} xH={-50}>
-           <a href="//https://waste-wise.onrender.com/" className="Project_link">SITE</a>
+          <a href="https://waste-wise.onrender.com" className="Project_link">SITE</a>
         </SlideAnimateX>
         <SlideAnimateX delay={1.5} xH={-50}>
-            <p className="prompt">Waste in NYC</p>
+          <p className="prompt">Waste in NYC</p>
         </SlideAnimateX>
         <SlideAnimateY delay={2} yH={50}>
           <p className="mainTextWaste">
@@ -31,7 +31,7 @@ const WasteWise = () => {
             All in all, we aim to build a more sustainable and fair food system for our city.
           </p>
         </SlideAnimateY>
-        
+
         <AppearText dur={1}>
           <motion.div
           >
@@ -79,7 +79,7 @@ const WasteWise = () => {
         </SlideAnimateX>
         <SlideAnimateX delay={1} xH={-50}>
           <p className="tech">JS</p>
-        </SlideAnimateX>  
+        </SlideAnimateX>
         <SlideAnimateX delay={1} xH={-50}>
           <p className="tech">CSS</p>
         </SlideAnimateX>
@@ -88,20 +88,20 @@ const WasteWise = () => {
         </SlideAnimateX>
         <SlideAnimateX delay={1} xH={-50}>
           <p className="tech">POSTGRES</p>
-        </SlideAnimateX>  
+        </SlideAnimateX>
         <SlideAnimateX delay={1} xH={-50}>
           <p className="tech">EXPRESS</p>
-        </SlideAnimateX>  
+        </SlideAnimateX>
         <SlideAnimateX delay={1} xH={-50}>
           <p className="tech">FRAMER MOTION</p>
-        </SlideAnimateX>  
+        </SlideAnimateX>
         <SlideAnimateY delay={3} yH={50}>
           <div className="bar"></div>
         </SlideAnimateY>
         <SlideAnimateX delay={2.5} xH={-50}>
           <Link className="Project_link" to="/PROJECTS">more projects</Link>
         </SlideAnimateX>
-        
+
       </section>
     </main>
   </>
