@@ -1,6 +1,4 @@
 import AppearText from "../components/AppearText"
-import { motion } from "motion/react"
-import { Link } from "react-router-dom"
 import SlideAnimateY from "../components/SlideAnimateY"
 import { SlideAnimateX } from "../components/SlideAnimateX"
 
@@ -23,8 +21,7 @@ const ABOUT = () => {
         <SlideAnimateX delay={2.5} xH={10}>
           <div className="about_temp1"></div>
         </SlideAnimateX>
-
-
+        <img src="" alt="" />
       </section>
     </div>
   </main>
