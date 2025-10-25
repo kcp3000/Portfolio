@@ -1526,6 +1526,7 @@ img {
     font-weight: bold;
     font-size: 0.8rem;
     text-align: center;
+    line-height: 2;
   }
 
   .techUsedWaste {
@@ -1821,6 +1822,13 @@ img {
     grid-template-rows: minmax(200px, 2fr) 2fr minmax(200px, 2fr) 2fr
   }
 
+  .title_caption {
+    color: #443842;
+    font-style: italic;
+    opacity: 60%;
+    font-size: 0.8rem;
+  }
+
   .Pro_page {
     font-family: Bodoni;
     text-shadow: -10px 1px #f45832;
@@ -1838,8 +1846,7 @@ img {
   .Smalltestblock {
     height: 200px;
     justify-self: center;
-    width: 300px;
-    background-color: #443842;
+    width: 400px;
   }
 
   /* about me */
