@@ -4,6 +4,7 @@ import { SlideAnimateX } from "../components/SlideAnimateX"
 import pink from "../images/pink_sweater2.jpg"
 import InView from "../components/InView"
 import github from "../images/randomThings/github.png"
+import linkedin from "../images/randomThings/linkedin.png"
 
 
 const ABOUT = () => {
