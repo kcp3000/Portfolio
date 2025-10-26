@@ -1169,6 +1169,11 @@ img {
     z-index: 4;
   }
 
+  .about_container1 :nth-child(8){
+    grid-column: 27/ span 3;
+    grid-row: 26;
+  }
+
   .imageAbout_container {
     height: 100%;
   }
