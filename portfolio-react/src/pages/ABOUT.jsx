@@ -3,7 +3,7 @@ import SlideAnimateY from "../components/SlideAnimateY"
 import { SlideAnimateX } from "../components/SlideAnimateX"
 import pink from "../images/pink_sweater2.jpg"
 import InView from "../components/InView"
-
+import github from "../images/randomThings/github.png"
 
 
 const ABOUT = () => {
