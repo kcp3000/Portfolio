@@ -11,8 +11,8 @@ const NavBar = () => {
                 <Link className="interactable" to="/ABOUT">ABOUT</Link>
                 <p className="rectangle"></p>
                 <p className="rectangle"></p>
-                <a className="interactable" href={resume}>RESUMÉ</a>
-                <p>KEVINDELEON102022@GMAIL.COM</p>
+                <a className="interactable" href={resume} target="blank_">RESUMÉ</a>
+                <a className="Project_link" href="mailto:kevindeleon102022@gmail.com">KEVINDELEON102022@GMAIL.COM</a>
                 <p>NEW YORK, NY</p>
             </nav>
 

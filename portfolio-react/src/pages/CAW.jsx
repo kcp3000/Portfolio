@@ -23,7 +23,7 @@ const CAW = () => {
           <p className="y2kTitle">CAW</p>
         </SlideAnimateX>
         <SlideAnimateX delay={1.5} xH={-50}>
-          <a className="Project_link" href="https://www.creativeartworks.org/blogpreview/2025/8/30/a-fusion-of-art-and-information">SITE</a>
+          <a className="Project_link" href="https://www.creativeartworks.org/blogpreview/2025/8/30/a-fusion-of-art-and-information" target="blank_">SITE</a>
         </SlideAnimateX>
         <SlideAnimateX delay={1.5} xH={-50}>
           <p className="prompt">Creative Art Works</p>

@@ -18,7 +18,7 @@ const Y2K = () => {
           <h1 className="y2kTitle">Y2K</h1>
         </SlideAnimateX>
         <SlideAnimateX delay={1.5} xH={-50}>
-           <a href="https://kcp3000.github.io/Y2K/" className="Project_link">SITE</a>
+           <a href="https://kcp3000.github.io/Y2K/" className="Project_link" target="blank_">SITE</a>
         </SlideAnimateX>
         <SlideAnimateX delay={1.5} xH={-50}>
           <p className="prompt">YEAR 2000</p>
