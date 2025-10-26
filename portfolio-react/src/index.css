@@ -70,6 +70,7 @@ main {
   width: 100%;
   color: #443842;
   margin-left: 0.5rem;
+  margin-bottom: 0.7rem;
 }
 
 .links :nth-child(1) {
@@ -1167,6 +1168,21 @@ img {
     grid-column: 4/ span 21;
     grid-row: 17;
     z-index: 4;
+  }
+
+  .about_container1 :nth-child(8){
+    grid-column: 27/ span 2;
+    grid-row: 26;
+    
+  }
+
+  .ProLink {
+    transform: translateY(10px);
+  }
+
+   .about_container1 :nth-child(9){
+    grid-column: 31/ span 2;
+    grid-row: 26;
   }
 
   .imageAbout_container {
