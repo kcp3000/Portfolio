@@ -41,6 +41,16 @@ const ABOUT = () => {
             I love to create, and most importantly, I love to learn.
           </p>
         </SlideAnimateX>
+        <SlideAnimateX delay={3} xH={-10}>
+          <a href="https://www.linkedin.com/in/kevin-deleon-55047a26a/" target="blank_">
+            <img className="ProLink" src={linkedin} alt="" />
+          </a>
+        </SlideAnimateX>
+        <SlideAnimateX delay={3} xH={-10}>
+          <a href="https://github.com/kcp3000" target="blank_">
+            <img className="ProLink" src={github} alt="" />
+          </a>
+        </SlideAnimateX>
       </section>
       
       <section className="about_container2">
