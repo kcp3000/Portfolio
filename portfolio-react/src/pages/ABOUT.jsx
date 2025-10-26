@@ -3,8 +3,7 @@ import SlideAnimateY from "../components/SlideAnimateY"
 import { SlideAnimateX } from "../components/SlideAnimateX"
 import pink from "../images/pink_sweater2.jpg"
 import InView from "../components/InView"
-import linkedin from "../images/random_things/Linkedin_logo.png"
-import github from "../images/random_things/github.png"
+import linkedin from "../images/pink_sweater2.jpg"
 
 
 const ABOUT = () => {
@@ -40,16 +39,6 @@ const ABOUT = () => {
             This describes my present self today; but of course this is not the full story. My path led me to a purpose, a belief system that I abide by: <span className="Project_link">“Creating what I deem as cool”</span>.
             I love to create, and most importantly, I love to learn.
           </p>
-        </SlideAnimateX>
-        <SlideAnimateX delay={3} xH={-10}>
-          <a  href="https://www.linkedin.com/in/kevin-deleon-55047a26a/" target="blank_">
-            <img className="ProLink" src={linkedin} alt="" />
-          </a>
-        </SlideAnimateX>
-        <SlideAnimateX delay={3} xH={-10}>
-          <a href="https://github.com/kcp3000" target="blank_">
-            <img className="ProLink" src={github} alt="" />
-          </a>
         </SlideAnimateX>
       </section>
       
