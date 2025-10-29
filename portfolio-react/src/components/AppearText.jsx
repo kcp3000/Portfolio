@@ -1,7 +1,7 @@
 import { motion } from "motion/react"
 
 
-const AppearText = ({ children, dur }) => {
+const AppearText = ({ children, dur}) => {
 
     // const [isLoading, setIsLoading] = useState(false)
     // const {scrollYProgress} = useScroll();

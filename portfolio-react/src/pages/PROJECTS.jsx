@@ -2,6 +2,14 @@ import SlideAnimateY from "../components/SlideAnimateY"
 import { motion } from "motion/react"
 import { Link } from "react-router-dom"
 import InView from "../components/InView"
+import OG from "../images/OG.png"
+import newDesign from "../images/Redesign.png"
+import newSpanish from "../images/Redesign(spanish).png"
+import caw1 from "../images/CAW/caw1.JPG"
+import waste1 from "../images/wasteWise/README.png"
+import y2k1 from "../images/y2k/y2k1.png"
+import Phx from "../images/Phx.png"
+import gallery from "../images/gallery.png"
 
 //https://waste-wise.onrender.com
 //https://ascentak.github.io/Project-Ascent/
@@ -22,11 +30,15 @@ const PROJECT = () => {
     <section className="project_container">
       <InView d={"grid"} delay={2}>
         <p className="title_caption">Design Work --CAW</p>
-        <div className="testblock"></div>
+        <div className="testblock">
+          <img className="CAW" src={caw1} alt="pictures_of_booklet" />
+        </div>
       </InView>
       <InView d={"grid"} delay={2}>
         <p className="title_caption">SWE Fullstack --WasteWise</p>
-        <div className="testblock"></div>
+        <div className="testblock">
+          <img className="waste" src={waste1} alt="screenshot_of_wastewise" />
+        </div>
       </InView>
       <InView d={"grid"} delay={0.5}>
         <div className="Smalltestblock">
@@ -34,7 +46,7 @@ const PROJECT = () => {
             Interned @ CAW (Creative Art Works) for the opportunity to transform the Family Court House booklet for all family courts in NYC!
             In the span of ~5 weeks, I along with 17 other talented Young Apprentices using Adobe Indesign worked together to create a booklet worth remembering.
             </p>
-            <a className="Project_link" href="https://www.creativeartworks.org/blogpreview/2025/8/30/a-fusion-of-art-and-information">SITE</a>
+            <a className="Project_link" href="https://www.creativeartworks.org/blogpreview/2025/8/30/a-fusion-of-art-and-information" target="blank_">SITE</a>
         </div>
 
       </InView>
@@ -46,16 +58,20 @@ const PROJECT = () => {
             We also promote sustainability by educating the public and showcasing volunteer opportunities, while providing restaurants and companies a simplified food donation network to ensure surplus food reaches people in need.
             All in all, we aim to build a more sustainable and fair food system for our city.
           </p>
-           <a href="https://waste-wise.onrender.com" className="Project_link">SITE</a>
+           <a href="https://waste-wise.onrender.com" className="Project_link" target="blank_">SITE</a>
         </div>
       </InView>
       <InView d={"grid"} delay={0.5}>
         <p className="title_caption">SWE Frontend --Y2K</p>
-        <div className="testblock"></div>
+        <div className="testblock">
+          <img className="y2k" src={y2k1} alt="y2k_screenshot" />
+        </div>
       </InView>
       <InView d={"grid"} delay={0.5}>
         <p className="title_caption">SWE Frontend --Acscent</p>
-        <div className="testblock"></div>
+        <div className="testblock">
+          <img className="phx" src={Phx} alt="pic_of_Phenoix" />
+        </div>
       </InView>
       <InView d={"grid"} delay={0.5}>
         <div className="Smalltestblock">
@@ -69,19 +85,31 @@ const PROJECT = () => {
       <InView d={"grid"} delay={0.5}>
         <div className="Smalltestblock">
           <p className="projectMainText">
-            In our app, you would be able to make your own team or have us create a random team for you! 
-            In the end, we create a little system where you could battle against another team of your choice or a generated team we make.
+            Created an application on the hit game VALORANT. This site gives an overview of what the game is about,
+            as well as a catalog of all of the Agents and what their abilities are!
           </p>
           <a href="https://ascentak.github.io/Project-Ascent/" className="Project_link" target="blank_">SITE</a>
         </div>
       </InView>
       <InView d={"grid"} delay={0.5}>
         <p className="title_caption">SWE Fullstack --GALLERYWALK</p>
-        <div className="testblock"></div>
+        <div className="testblock">
+          <img className="gallery" src={gallery} alt="screenshot_of_gallery" />
+        </div>
       </InView>
       <InView d={"grid"} delay={0.5}>
-        <p className="title_caption">UNDER CONSTRUCTION</p>
-        <div className="testblock"></div>
+        <p className="title_caption">FREELANCE --Camp Coaching Flyer (Design Work)</p>
+        <div className="testblock">
+          <p className="old">OLD</p>
+          <div className="oldDesign">
+            <img src={OG} alt="" />
+          </div>
+          <p className="new">NEW</p>
+          <div className="newDesign">
+            <img src={newDesign} alt="" />
+            <img src={newSpanish} alt="" />
+          </div>
+        </div>
       </InView>
       <InView d={"grid"} delay={0.5}>
         <div className="Smalltestblock">
@@ -94,7 +122,7 @@ const PROJECT = () => {
       </InView>
       <InView d={"grid"} delay={0.5}>
         <div className="Smalltestblock">
-          <p className="projectMainText">UNDER CONSTRUCTION</p>
+          <p className="projectMainText">Redesigned a flyer for my brother's Training Camp using Figma :)</p>
         </div>
       </InView>
     </section>

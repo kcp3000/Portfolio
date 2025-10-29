@@ -18,7 +18,7 @@ const WasteWise = () => {
           <h1 className="y2kTitle">Waste Wise</h1>
         </SlideAnimateX>
         <SlideAnimateX delay={1.5} xH={-50}>
-          <a href="https://waste-wise.onrender.com" className="Project_link">SITE</a>
+          <a href="https://waste-wise.onrender.com" className="Project_link" target="blank_">SITE</a>
         </SlideAnimateX>
         <SlideAnimateX delay={1.5} xH={-50}>
           <p className="prompt">Waste in NYC</p>

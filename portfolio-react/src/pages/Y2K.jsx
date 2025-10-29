@@ -13,7 +13,7 @@ import { SlideAnimateX } from "../components/SlideAnimateX"
 const Y2K = () => {
   return <>
     <main>
-      <section className="y2k-main">
+      <section className="y2k-section">
         <SlideAnimateX delay={1} xH={-50}>
           <h1 className="y2kTitle">Y2K</h1>
         </SlideAnimateX>
