@@ -42,6 +42,18 @@ export function Section1() {
         <SlideAnimateX delay={4} xH={-150}>
           <div className="bar"></div>
         </SlideAnimateX>
+        <AppearText dur={4}>
+          <span className="arrowDown"></span>
+        </AppearText>
+        <AppearText dur={4}>
+          <span className="arrowDown2"></span>
+        </AppearText>
+        <AppearText dur={4}>
+          <span className="arrowDown"></span>
+        </AppearText>
+        <AppearText dur={4}>
+          <span className="arrowDown2"></span>
+        </AppearText>
       </section>
     </div>)
 }
