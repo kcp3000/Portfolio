@@ -2661,7 +2661,7 @@ img {
   width: 100%;
   align-items: center;
   justify-content: center;
-  /* transform: translateY(-8rem); */
+  transform: translateY(-5.5rem);
 }
 
 .ticker {
