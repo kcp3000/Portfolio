@@ -2532,24 +2532,24 @@ img {
 }
 
 .grid_container1 :nth-child(9) {
-  grid-row: 22;
+  grid-row: 20;
   grid-column: 10;
   transform: rotateZ(60deg);
 }
 
 .grid_container1 :nth-child(10) {
-  grid-row: 22;
+  grid-row: 20;
   grid-column: 11;
   transform: rotateZ(-60deg) translateY(6px) translateX(4px);
  
 }
 .grid_container1 :nth-child(11) {
-  grid-row: 22;
+  grid-row: 20;
   grid-column: 12;
   transform: rotateZ(60deg);
 }
 .grid_container1 :nth-child(12) {
-  grid-row: 22;
+  grid-row: 20;
   grid-column: 13;
     transform: rotateZ(-60deg) translateY(6px) translateX(4px);
 }
@@ -2574,7 +2574,7 @@ img {
   display: grid;
   grid-template-columns: repeat(24, 1rem);
   grid-template-rows: repeat(32, 1rem);
-  height: 80%;
+  height: 70%;
 }
 
 .grid_container_section2_text :nth-child(1) {
@@ -2661,7 +2661,7 @@ img {
   width: 100%;
   align-items: center;
   justify-content: center;
-  transform: translateY(-8rem);
+  /* transform: translateY(-8rem); */
 }
 
 .ticker {
