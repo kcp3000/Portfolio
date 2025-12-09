@@ -1100,14 +1100,49 @@ img {
     opacity: 60%;
   }
 
+  .design_SWE_div {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
   .project_container {
     margin-top: 10rem;
-    display: grid;
-    /* justify-content: center; */
-    column-gap: 0.5rem;
-    row-gap: 2rem;
-    grid-template-columns: minmax(200px, 2fr) 2fr;
-    grid-template-rows: minmax(200px, 2fr) 2fr minmax(200px, 2fr) 2fr
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: row;
+    gap: 25rem;
+  }
+
+  .design_container {
+    display: flex;
+    align-items: center;
+    gap: 12rem;
+    flex-direction: column;
+  }
+
+  .SWE_container {
+    display: flex;
+    align-items: center;
+    gap: 12rem;
+    flex-direction: column;
+  }
+
+  .inner_child {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .inner_text {
+    padding-top: 5rem;
+    color: #443842;
+    font-weight: 700;
+    font-size: 4rem;
+    font-style: italic;
+    text-decoration: underline;
+    
   }
 
   .Pro_page {
@@ -1169,7 +1204,7 @@ img {
     flex-direction: column;
     gap: 1rem;
     height: 200px;
-    justify-self: center;
+    /* justify-self: center; */
     width: 400px;
     /* background-color: #443842; */
     align-items: center;
@@ -1207,7 +1242,7 @@ img {
     color: #443842;
     font-weight: bold;
     font-size: 1rem;
-    text-align: center;
+    /* text-align: center; */
   }
 
   /* about me */
