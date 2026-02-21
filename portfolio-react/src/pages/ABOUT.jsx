@@ -58,7 +58,8 @@ const ABOUT = () => {
           <h1 className="aboutThings">THINGS THAT I DO</h1>
         </InView>
         <InView d={"grid"} delay={0.5}>
-          <p className="title_caption">UNDER CONSTRUCTION</p>
+          <p className="aboutMainText">ARTIST</p>
+          <img src="" alt="" />
         </InView>
         
       </section>

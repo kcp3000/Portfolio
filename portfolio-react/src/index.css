@@ -1375,8 +1375,8 @@ img {
   }
 
   .about_container2 :nth-child(2) {
-    grid-column: 3/span 8 ;
-    grid-row: 6;
+    grid-column: 1/span 8 ;
+    grid-row: 8;
   }
 
 
