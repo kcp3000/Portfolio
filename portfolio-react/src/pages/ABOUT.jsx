@@ -11,6 +11,8 @@ import art2 from "../images/about_images/artbook2.jpg"
 import chu from "../images/about_images/chu.png"
 import chu2 from "../images/about_images/chu2.jpg"
 import intruders from "../images/about_images/intruders.jpg"
+import sakamoto from "../images/about_images/sakamoto.jpg"
+import humans from "../images/about_images/nolongerhuman.png"
 
 
 const ABOUT = () => {
@@ -82,12 +84,29 @@ const ABOUT = () => {
           <p className="aboutSubtitle">CHU:</p>
         </InView>
         <InView d={"grid"} delay={0.5}>
+          <img src={chu2} alt="cat" />
+        </InView>
+        <InView d={"grid"} delay={0.5}>
           <img src={chu} alt="cat" />
         </InView>
         <InView d={"grid"} delay={0.5}>
-          <img src={chu2} alt="cat" />
+          <p className="aboutMainText">Little Chu! My pet cat who's about to 7, what a middle aged man.</p>
         </InView>
-        
+        <InView d={"grid"} delay={0.5}>
+          <p className="aboutSubtitle">BOOKS:</p>
+        </InView>
+        <InView d={"grid"} delay={0.5}>
+          <img src={sakamoto} alt="cat" />
+        </InView>
+        <InView d={"grid"} delay={0.5}>
+          <img src={intruders} alt="cat" />
+        </InView>
+        <InView d={"grid"} delay={0.5}>
+          <img src={humans} alt="cat" />
+        </InView>
+        <InView d={"grid"} delay={0.5}>
+          <p className="aboutMainText">I love books of all kind! Reading (and to an extent, writing) are fun past times I'll occasionally engross myself to. Manga, self-help books, biographies, etc, so long as I find it interesting, I'm reading it.</p>
+        </InView>
       </section>
     </div>
   </main>
@@ -95,4 +114,3 @@ const ABOUT = () => {
 
 export default ABOUT
 
-//Will probably change this to be the graphic design shit we did this summer
