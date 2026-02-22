@@ -5,6 +5,12 @@ import pink from "../images/pink_sweater2.jpg"
 import InView from "../components/InView"
 import github from "../images/randomThings/github.png"
 import linkedin from "../images/randomThings/linkedin.png"
+import art1 from "../images/about_images/artbook1.jpg"
+import closeup from "../images/about_images/artbook1CloseUp.png"
+import art2 from "../images/about_images/artbook2.jpg"
+import chu from "../images/about_images/chu.png"
+import chu2 from "../images/about_images/chu2.jpg"
+import intruders from "../images/about_images/intruders.jpg"
 
 
 const ABOUT = () => {
@@ -25,7 +31,7 @@ const ABOUT = () => {
         </SlideAnimateX>
         <SlideAnimateX delay={2.5} xH={10}>
           <div className="imageAbout_container">
-            <img className="imageAbout" src={pink} alt="" />
+            <img className="imageAbout" src={pink} alt="Kevin_Deleon_Pink_Hoodie" />
           </div>
         </SlideAnimateX>
         <SlideAnimateX delay={2.5} xH={10}>
@@ -43,12 +49,12 @@ const ABOUT = () => {
         </SlideAnimateX>
         <SlideAnimateX delay={3} xH={-10}>
           <a href="https://www.linkedin.com/in/kevin-deleon-55047a26a/" target="blank_">
-            <img className="ProLink" src={linkedin} alt="" />
+            <img className="ProLink" src={linkedin} alt="Linkedin_Logo" />
           </a>
         </SlideAnimateX>
         <SlideAnimateX delay={3} xH={-10}>
           <a href="https://github.com/kcp3000" target="blank_">
-            <img className="ProLink" src={github} alt="" />
+            <img className="ProLink" src={github} alt="Github_Logo" />
           </a>
         </SlideAnimateX>
       </section>
@@ -58,8 +64,28 @@ const ABOUT = () => {
           <h1 className="aboutThings">THINGS THAT I DO</h1>
         </InView>
         <InView d={"grid"} delay={0.5}>
-          <p className="aboutMainText">ARTIST</p>
-          <img src="" alt="" />
+          <p className="aboutSubtitle">ARTIST:</p>
+        </InView>
+        <InView d={"grid"} delay={0.5}>
+          <img src={art1} alt="art_book" />
+        </InView>
+        <InView d={"grid"} delay={0.5}>
+          <img src={art2} alt="art_book" />
+        </InView>
+        <InView d={"grid"} delay={0.5}>
+          <img src={closeup} alt="art_book_close_up" />
+        </InView>
+        <InView d={"grid"} delay={0.5}>
+          <p className="aboutMainText">Art has been a part of my life for as long as I lived. I was first inspired by my sister, she was doing a graffiti of her name, and kid-me was fascinated. Ever since then, art, <span className="spanColorChange">CREATING</span>, has become a core purpose for myself.</p>
+        </InView>
+        <InView d={"grid"} delay={0.5}>
+          <p className="aboutSubtitle">CHU:</p>
+        </InView>
+        <InView d={"grid"} delay={0.5}>
+          <img src={chu} alt="cat" />
+        </InView>
+        <InView d={"grid"} delay={0.5}>
+          <img src={chu2} alt="cat" />
         </InView>
         
       </section>
