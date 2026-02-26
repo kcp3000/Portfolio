@@ -46,13 +46,13 @@ const PROJECT = () => {
       {isChanged ? (
         <div className="SWEMobile_container">
           <div className="inner_child">
-          <InView d={"grid"} delay={1}>
+          <InView d={"grid"} delay={0.5}>
           <p className="title_caption">SWE Fullstack --WasteWise</p>
           <div className="testblock">
             <img className="waste" src={waste1} alt="screenshot_of_wastewise" />
           </div>
         </InView>
-        <InView d={"grid"} delay={0.5}>
+        <InView d={"grid"} delay={1}>
           <div className="Smalltestblock">
             <p className="projectMainText">
               Bridging the gap between food insecurity and food waste by redistributing food that is still perfectly edible but would otherwise be thrown away.
@@ -121,13 +121,13 @@ const PROJECT = () => {
 
           <div>
             <div className="inner_child">
-              <InView d={"grid"} delay={1}>
+              <InView d={"grid"} delay={0.5}>
                 <p className="title_caption">Design Work --CAW</p>
                 <div className="testblock">
                   <img className="CAW" src={caw1} alt="pictures_of_booklet" />
                 </div>
               </InView> 
-              <InView d={"grid"} delay={0.5}>
+              <InView d={"grid"} delay={1}>
                 <div className="Smalltestblock">
                   <p className="projectMainText">
                     Interned @ CAW (Creative Art Works) for the opportunity to transform the Family Court House booklet for all family courts in NYC!
@@ -138,20 +138,25 @@ const PROJECT = () => {
               </InView>
             </div>
           </div>
-
-          <div className="inner_child">
-            <InView d={"grid"} delay={0.5}>
-              <p className="title_caption">--</p>
-              <div className="testblock">
-                
-              </div>
-            </InView>
-            <InView d={"grid"} delay={0.5}>
-              <div className="Smalltestblock">
-                <p className="projectMainText">--</p>
-              </div>
-            </InView>
+          <div>
+            <div className="inner_child">
+              <InView d={"grid"} delay={0.5}>
+                <p className="title_caption">Camp Coaching Flyer</p>
+                <div className="testblock">
+                  <div className="newDesign">
+                    <img src={newDesign} alt="" />
+                    <img src={newSpanish} alt="" />
+                  </div>
+                </div>
+              </InView>
+              <InView d={"grid"} delay={0.5}>
+                <div className="Smalltestblock">
+                  <p className="projectMainText">Redesigned a flyer for my brother's Training Camp using Figma :)</p>
+                </div>
+              </InView>
+            </div>
           </div>
+          
         </div>
       )}
     </div>
