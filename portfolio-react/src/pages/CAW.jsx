@@ -36,30 +36,30 @@ const CAW = () => {
           </p>
         </SlideAnimateY>
 
-        <SlideAnimateY delay={2} yH={50}>
+        <SlideAnimateY delay={1} yH={50}>
           <motion.div
           >
-            <img src={caw1} alt="Image of the Y2K website" />
+            <img src={caw1} alt="Main_Picture_of_CAW_Booklet" />
           </motion.div>
         </SlideAnimateY>
 
-        <SlideAnimateY delay={2} yH={50}>
+        <SlideAnimateY delay={1} yH={50}>
           <motion.div
             whileHover={{
               scale: 1.1,
             }}
           >
-            <img className="pic" src={caw2} alt="Image of the Y2K website" />
+            <img className="pic" src={caw2} alt="Image_of_new_CAW_Booklet" />
           </motion.div>
         </SlideAnimateY>
 
-        <SlideAnimateY delay={2} yH={50}>
+        <SlideAnimateY delay={1} yH={50}>
           <motion.div
             whileHover={{
               scale: 1.1,
             }}
           >
-            <img className="pic" src={caw5} alt="Image of the Y2K website" />
+            <img className="pic" src={caw5} alt="Main_Picture_of_CAW_Booklet" />
           </motion.div>
         </SlideAnimateY>
         <SlideAnimateY delay={1} yH={50}>
@@ -68,7 +68,7 @@ const CAW = () => {
               scale: 1.1,
             }}
           >
-            <img className="pic" src={oldCover} alt="Image of the Y2K website" />
+            <img className="pic" src={oldCover} alt="Image_of_old_CAW_Booklet" />
           </motion.div>
         </SlideAnimateY>
         <SlideAnimateY delay={1} yH={50}>
@@ -77,7 +77,7 @@ const CAW = () => {
               scale: 1.1,
             }}
           >
-            <img className="pic" src={oldCourt} alt="Image of the Y2K website" />
+            <img className="pic" src={oldCourt} alt="Image_of_old_CAW_Booklet" />
           </motion.div>
         </SlideAnimateY>
         <SlideAnimateY delay={3} yH={50}>
@@ -86,7 +86,7 @@ const CAW = () => {
         <SlideAnimateY delay={1} yH={50}>
           <h1 className="techUsedCAW">BEFORE</h1>
         </SlideAnimateY>
-        <SlideAnimateY delay={2} yH={50}>
+        <SlideAnimateY delay={1} yH={50}>
           <h1 className="techUsedCAW">AFTER</h1>
         </SlideAnimateY>
         <SlideAnimateY delay={3} yH={50}>
@@ -101,7 +101,7 @@ const CAW = () => {
               scale: 1.1,
             }}
           >
-            <img className="pic" src={oldWelcome} alt="Image of the Y2K website" />
+            <img className="pic" src={oldWelcome} alt="Image_of_old_CAW_Booklet" />
           </motion.div>
         </SlideAnimateY>
         <SlideAnimateY delay={1} yH={50}>
@@ -110,25 +110,25 @@ const CAW = () => {
               scale: 1.1,
             }}
           >
-            <img className="pic" src={oldOur} alt="Image of the Y2K website" />
+            <img className="pic" src={oldOur} alt="Image_of_old_CAW_Booklet" />
           </motion.div>
         </SlideAnimateY>
-        <SlideAnimateY delay={2} yH={50}>
+        <SlideAnimateY delay={1} yH={50}>
           <motion.div
             whileHover={{
               scale: 1.1,
             }}
           >
-            <img className="pic" src={cawOur} alt="Image of the Y2K website" />
+            <img className="pic" src={cawOur} alt="Image_of_new_CAW_Booklet" />
           </motion.div>
         </SlideAnimateY>
-        <SlideAnimateY delay={2} yH={50}>
+        <SlideAnimateY delay={1} yH={50}>
           <motion.div
             whileHover={{
               scale: 1.1,
             }}
           >
-            <img className="pic" src={cawWelcome} alt="Image of the Y2K website" />
+            <img className="pic" src={cawWelcome} alt="Image_of_new_CAW_Booklet" />
           </motion.div>
         </SlideAnimateY>
       </section>
