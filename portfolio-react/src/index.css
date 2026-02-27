@@ -80,6 +80,12 @@ main {
   font-weight: 700
 }
 
+.spanHightlight {
+  text-decoration: underline;
+  color: #8460A3;
+  font-weight: bold;
+}
+
 /* ------------------- */
 /* COMPONENTS STYTING */
 /* ------------------- */
@@ -3163,22 +3169,22 @@ img {
   }
 
   .about_container1 :nth-child(1) {
-    grid-column: 2/ span 5;
+    grid-column: 3/ span 5;
     grid-row: 2;
   }
 
   .about_container1 :nth-child(2) {
-    grid-column: 1/ span 10;
+    grid-column: 3/ span 10;
     grid-row: 4;
   }
 
   .about_container1 :nth-child(3) {
-    grid-column: 1/ span 16;
+    grid-column: 3/ span 16;
     grid-row: 9 /span 16;
   }
 
   .about_container1 :nth-child(4) {
-    grid-column: 3/ span 16;
+    grid-column: 4/ span 16;
     grid-row: 11 /span 16;
     z-index: 3;
   }
@@ -3193,16 +3199,17 @@ img {
     display: none;
   }
   .about_container1 :nth-child(7) {
+    grid-column: 5/span 21;
     grid-row: 12;
   }
 
   .about_container1 :nth-child(8){
-    grid-column: 20/ span 3;
+    grid-column: 21/ span 3;
     grid-row: 18;
   }
 
   .about_container1 :nth-child(9){
-    grid-column: 20/ span 3;
+    grid-column: 21/ span 3;
     grid-row: 22;
   }
 
@@ -3226,7 +3233,7 @@ img {
   }
 
   .about_container2 :nth-child(1) {
-    grid-column: 1/ span 20;
+    grid-column: 2/ span 20;
   }
 
   .about_container2 :nth-child(2) {
