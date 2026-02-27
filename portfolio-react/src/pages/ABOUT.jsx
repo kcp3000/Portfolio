@@ -44,8 +44,8 @@ const ABOUT = () => {
             Hello! My name is Kevin Deleon, I am a recent graduate of the Marcy Lab School; a Software Engineering, one year intensive program learning aspects of backend and frontend.
             I operate with this one philosophy, finding an obsession I can master.
             Coding being one of those candidates.
-            Such the phrase, <span className="Project_link">“Madness is doing the same thing over and over again and expecting different results"</span>.
-            This describes my present self today; but of course this is not the full story. My path led me to a purpose, a belief system that I abide by: <span className="Project_link">“Creating what I deem as cool”</span>.
+            Such the phrase, <span className="spanHightlight">“Madness is doing the same thing over and over again and expecting different results"</span>.
+            This describes my present self today; but of course this is not the full story. My path led me to a purpose, a belief system that I abide by: <span className="spanHightlight">“Creating what I deem as cool”</span>.
             I love to create, and most importantly, I love to learn.
           </p>
         </SlideAnimateX>
