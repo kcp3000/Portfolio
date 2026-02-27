@@ -3121,12 +3121,14 @@ img {
     grid-row: 4;
   }
 
-  .newDesign {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    grid-column: 3/ span 11;
-    grid-row: 7;
+  .ND1 {
+    grid-column: 3/ span 5;
+    grid-row: 3;
+  }
+
+  .ND2 {
+    grid-column: 9/ span 5;
+    grid-row: 3;
   }
 
 

@@ -143,10 +143,8 @@ const PROJECT = () => {
               <InView d={"grid"} delay={0.5}>
                 <p className="title_caption">Camp Coaching Flyer</p>
                 <div className="testblock">
-                  <div className="newDesign">
-                    <img src={newDesign} alt="" />
-                    <img src={newSpanish} alt="" />
-                  </div>
+                    <img className="ND1" src={newDesign} alt="" />
+                    <img className="ND2" src={newSpanish} alt="" />
                 </div>
               </InView>
               <InView d={"grid"} delay={0.5}>
