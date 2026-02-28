@@ -27,7 +27,7 @@ export function Section2() {
       <SlideAnimateY delay={1.5} yH={50}>
         <p>
           I'm well versed in both Frontend and Backend; primarily using Javascript/Typescript and PostgresSQL on the coding side and Figma on the design side
-          as my main tech stack, but alway open to learning more! Most importantly, I love to create interesting, off-the-wall designs that leaves a lasting impression.
+          as my main tech stack, but always open to learning more! Most importantly, I love to create interesting, off-the-wall designs that leaves a lasting impression.
           Ultimately, I'm here to
         </p>
       </SlideAnimateY>
