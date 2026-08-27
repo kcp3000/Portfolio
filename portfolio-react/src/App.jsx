@@ -1,7 +1,8 @@
 import Home from "./pages/Home"
-import Y2K from "./pages/Y2K"
-import WasteWise from "./pages/WasteWise"
-import CAW from "./pages/CAW"
+import Y2K from "./PROJECTSFOLD/Y2K"
+import WasteWise from "./PROJECTSFOLD/WasteWise"
+import CAW from "./PROJECTSFOLD/CAW"
+import WILL from "./PROJECTSFOLD/WILL"
 import PROJECTS from "./pages/PROJECTS"
 import NotFoundPage from "./pages/NotFoundPage"
 import ScrollToTop from "./components/ScrollToTop"
@@ -20,6 +21,7 @@ function App() {
     <ScrollToTop />
     <Routes>
       <Route path='/' element={<Home />} />
+      <Route path='/WILL' element={<WILL />} />
       <Route path='/Y2K' element={<Y2K />} />
       <Route path='/WasteWise' element={<WasteWise />} />
       <Route path='/CAW' element={<CAW />} />

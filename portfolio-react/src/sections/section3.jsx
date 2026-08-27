@@ -10,7 +10,7 @@ export function Section3() {
           <h1 className="Pro">PROJECTS</h1>
         </SlideAnimateX>
         <SlideAnimateX delay={0.5} xH={-50}>
-          <Link to="/Y2K" className="link">
+          <Link to="/WILL" className="link">
             <motion.p className="block"
               whileHover={{ scale: 1.05 }}
             ></motion.p>
@@ -40,7 +40,7 @@ export function Section3() {
           </Link>
         </SlideAnimateX>
         <SlideAnimateX delay={0.6} xH={-50}>
-          <h1 className="y2k">Y2K</h1>
+          <h1 className="y2k">WILL</h1>
         </SlideAnimateX>
         <SlideAnimateX delay={0.8} xH={-50}>
           <h1>WASTE</h1>
