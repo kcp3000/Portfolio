@@ -36,6 +36,7 @@ const PROJECT = () => {
         <p className="subtitleProject">kindly take a look</p>
       </SlideAnimateY>
     </div>
+
     {/* FOR MOBILE VIEW BELOW */}
     <div className="mobileview_projects">
       <SlideAnimateY delay={2.5} yH={50}>
@@ -160,6 +161,7 @@ const PROJECT = () => {
       )}
     </div>
     {/* FOR MOBILE VIEW ABOVE */}
+
     <section className="project_container">
       <div className="design_container">
         <SlideAnimateY delay={1.5} yH={50}>
