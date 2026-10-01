@@ -17,6 +17,8 @@ import { SlideAnimateX } from "../components/SlideAnimateX"
 import FadeIn from "../components/FadeIn"
 import FadeOut from "../components/FadeOut"
 import ScrollBar from "../components/ScrollBar"
+import Carousel from "../components/Carousel"
+import { beforeAfter } from "../components/data"
 
 const WILL = () => {
   return <>
@@ -69,8 +71,8 @@ const WILL = () => {
         </div>
       </FadeOut>
 
-      <FadeOut y={0.2} y2={0.26}>
-        <FadeIn y={0.08} y2={0.12}>
+      <FadeOut y={0.16} y2={0.2}>
+        <FadeIn y={0.06} y2={0.12}>
           <div className="will_content_container">
             <div className="will_intro">
               <h2 className="subtitle">The Client</h2>
@@ -92,8 +94,8 @@ const WILL = () => {
         </FadeIn>
       </FadeOut>
 
-      <FadeOut y={0.32} y2={0.4}>
-        <FadeIn y={0.24} y2={0.28}>
+      <FadeOut y={0.3} y2={0.34}>
+        <FadeIn y={0.2} y2={0.24}>
           <div className="will_content_container">
             <div className="will_imagine">
               <h2 className="title">Imagine Being the Parent</h2>
@@ -111,7 +113,7 @@ const WILL = () => {
         </FadeIn>
       </FadeOut>
 
-      <FadeOut y={0.38} y2={0.44}>
+      <FadeOut y={0.36} y2={0.4}>
         <FadeIn y={0.26} y2={0.3}>
           <div className="will_content_container">
             <div className="will_solutions">
@@ -139,8 +141,8 @@ const WILL = () => {
         </FadeIn>
       </FadeOut>
 
-      <FadeOut y={0.54} y2={0.68}>
-        <FadeIn y={0.44} y2={0.48}>
+      <FadeOut y={0.54} y2={0.58}>
+        <FadeIn y={0.4} y2={0.46}>
           <div className="will_research_container">
             <div className="will_research_content">
               <h2 className="subtitle">The Research</h2>
@@ -180,8 +182,8 @@ const WILL = () => {
         </FadeIn>
       </FadeOut>
 
-      <FadeOut y={0.82} y2={0.86}>
-        <FadeIn y={0.66} y2={0.7}>
+      <FadeOut y={0.68} y2={0.74}>
+        <FadeIn y={0.57} y2={0.63}>
           <div className="will_journey_container">
             <div className="box_container">
               <div />
@@ -211,7 +213,7 @@ const WILL = () => {
         </FadeIn>
       </FadeOut>
 
-      <FadeIn y={0.86} y2={0.9}>
+      <FadeIn y={0.76} y2={0.8}>
         <div className="will_res_conclude_container">
           <div className="will_results_container">
             <div className="will_res-title_container">
@@ -219,14 +221,8 @@ const WILL = () => {
               <p className="text">Finally the Final Stage!</p>
             </div>
             <div className="res_imgs-text_container">
-              <div>
-                <h2 className="subtitle">AFTER</h2>
-                <div className="res_img_container">
-                  {/* I want to add a carousel over here btwn the before and after */}
-                  <img src={landingOpen} alt="" />
-                  <img src={landing1} alt="" />
-                  <img src={landing2} alt="" />
-                </div>
+              <div className="res_carousel_container">
+                  <Carousel imgs={beforeAfter}/>
               </div>
               <div className="res_text_container">
                 <p className="sub_text">
@@ -251,6 +247,7 @@ const WILL = () => {
               <p className="sub_text">
                 <span className="will_span">Compromise</span> and <span className="will_span">empathy</span>  are the two key words I would use to define this entire journey.
               </p>
+              <a href="https://www.figma.com/design/6L5bqgxITuRmqeQamyhmcH/We-Will-Thru-Sports?node-id=43-3&t=MMzXl2W8h06k21UB-1" className="webLink" target="_blank">FIGMA</a>
             </div>
           </div>
         </div>
