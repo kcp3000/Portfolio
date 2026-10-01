@@ -115,6 +115,40 @@ main {
   width: 100%;
 }
 
+.carousel {
+  display: flex;
+  width: 100%;
+  height: clamp(440px, 50vw, 700px);
+  max-width: 960px;
+}
+
+.carousel_wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.carousel_card {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0;
+  transform: scale(.8);
+  pointer-events: none;
+  transition: opacity .5s ease-in-out, transform .5s ease-in-out;
+}
+
+.carousel_card-active {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
+}
+
 /* ------------------- */
 /* COMPONENTS STYTING */
 /* ------------------- */
@@ -1496,6 +1530,7 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .will_res-title_container {
@@ -1525,7 +1560,16 @@ img {
   align-items: center;
   justify-content: center;
 
-  gap: 5rem;
+  width: min(100%, 1440px);
+  height: 100%;
+  gap: 6rem;
+
+  margin-bottom: 5rem;
+}
+
+.res_carousel_container {
+  flex: 2 1 0;
+  min-width: 0;
 }
 
 .res_img_container {
@@ -1534,19 +1578,34 @@ img {
   grid-template-rows: repeat(4, 4fr);
 
   gap: 1rem;
+  flex: 1;
+  min-height: 0;
 }
 
-.res_img_container :nth-child(1) {
+.res_img_container > div {
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.res_img_container > div > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.res_img_container > div:nth-child(1) {
   grid-column: 1 /span 2;
   grid-row: 1 /span 2;
 }
 
-.res_img_container :nth-child(2) {
+.res_img_container > div:nth-child(2) {
   grid-column: 3 /span 2;
   grid-row: 1 /span 2;
 }
 
-.res_img_container :nth-child(3) {
+.res_img_container > div:nth-child(3) {
   grid-column: 3 /span 2;
   grid-row: 3 /span 2;
 }
@@ -1556,13 +1615,13 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex: 1 1 0;
+  min-width: 0;
 
   gap: 2rem;
 }
 
 .will_conclude_container {
-  margin-top: 5rem;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6397,4 +6456,34 @@ img {
   /* ------------- */
   /* WWTS page */
   /* ------------- */
+}
+
+@media (max-width: 900px) {
+  .res_imgs-text_container {
+    flex-direction: column;
+  }
+
+  .res_carousel_container,
+  .res_text_container {
+    flex: none;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .carousel {
+    height: min(900px, 220vw);
+  }
+
+  .res_img_container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+  }
+
+  .res_img_container > div:nth-child(1),
+  .res_img_container > div:nth-child(2),
+  .res_img_container > div:nth-child(3) {
+    grid-column: 1;
+    grid-row: auto;
+  }
 }
