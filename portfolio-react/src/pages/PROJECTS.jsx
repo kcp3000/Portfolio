@@ -10,6 +10,7 @@ import waste1 from "../images/wasteWise/README.png"
 import y2k1 from "../images/y2k/y2k1.png"
 import Phx from "../images/Phx.png"
 import gallery from "../images/gallery.png"
+import landing from "../images/WILL/landing.jpg"
 import { useState } from "react"
 
 //https://waste-wise.onrender.com
@@ -120,6 +121,26 @@ const PROJECT = () => {
         </div>
       ) : (
         <div className="designMobile_container">
+          <div className="inner_child">
+            <InView d={"grid"} delay={0.5}>
+              <p className="title_caption">PROMETHEUS-- WeWILLThruSports Redesign</p>
+              <div className="testblock">
+                <div className="UXWill">
+                  <img src={landing} alt="" />
+                </div>
+              </div>
+            </InView>
+            <InView d={"grid"} delay={0.5}>
+              <div className="Smalltestblock">
+                <p className="projectMainText">
+                  We W.I.L.L. Thru Sports is a non-profit organization that works with the community in uniting parents and their children with the use of sports.
+                  The organization create events whether it be camps, basketball training or other sport activities for kids to join and have fun.
+                  I had the honor to redesign their website!
+                </p>
+                <Link to="/WILL" className="Project_link">CASE STUDY</Link>
+              </div>
+            </InView>
+          </div>
 
           <div>
             <div className="inner_child">
@@ -169,6 +190,27 @@ const PROJECT = () => {
         </SlideAnimateY>
 
         <div className="inner_child">
+          <InView d={"grid"} delay={0.5}>
+            <p className="title_caption">PROMETHEUS-- WeWILLThruSports Redesign</p>
+            <div className="testblock">
+              <div className="UXWill">
+                <img src={landing} alt="" />
+              </div>
+            </div>
+          </InView>
+          <InView d={"grid"} delay={0.5}>
+            <div className="Smalltestblock">
+              <p className="projectMainText">
+                We W.I.L.L. Thru Sports is a non-profit organization that works with the community in uniting parents and their children with the use of sports.
+                The organization create events whether it be camps, basketball training or other sport activities for kids to join and have fun.
+                I had the honor to redesign their website!
+              </p>
+               <Link to="/WILL" className="Project_link">CASE STUDY</Link>
+            </div>
+          </InView>
+        </div>
+
+        <div className="inner_child">
           <InView d={"grid"} delay={2}>
             <p className="title_caption">Design Work --CAW</p>
             <div className="testblock">
@@ -203,33 +245,6 @@ const PROJECT = () => {
           <InView d={"grid"} delay={0.5}>
             <div className="Smalltestblock">
               <p className="projectMainText">Redesigned a flyer for my brother's Training Camp using Figma :)</p>
-            </div>
-          </InView>
-        </div>
-
-        <div className="inner_child">
-          <InView d={"grid"} delay={0.5}>
-            <p className="title_caption">PROMETHEUS-- WeWILLThruSports Redesign</p>
-            <div className="testblock">
-              <p className="old">OLD</p>
-              <div className="oldDesign">
-                <img src={OG} alt="" />
-              </div>
-              <p className="new">NEW</p>
-              <div className="newDesign">
-                <img src={newDesign} alt="" />
-                <img src={newSpanish} alt="" />
-              </div>
-            </div>
-          </InView>
-          <InView d={"grid"} delay={0.5}>
-            <div className="Smalltestblock">
-              <p className="projectMainText">
-                We W.I.L.L. Thru Sports is a non-profit organization that works with the community in uniting parents and their children with the use of sports.
-                The organization create events whether it be camps, basketball training or other sport activities for kids to join and have fun.
-                I had the honor to redesign their website!
-              </p>
-              <a className="Project_link" href="https://www.figma.com/design/6L5bqgxITuRmqeQamyhmcH/We-Will-Thru-Sports?node-id=43-3&t=MMzXl2W8h06k21UB-1" target="blank_">FIGMA</a>
             </div>
           </InView>
         </div>

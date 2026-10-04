@@ -255,7 +255,7 @@ const WILL = () => {
       <ScrollBar />
 
       {/* FOR MOBILE VIEW BELOW */}
-
+        
       {/* FOR MOBILE VIEW ABOVE */}
     </section>
 

@@ -1752,6 +1752,16 @@ img {
   grid-row: 15;
 }
 
+
+.UXWill {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  grid-column: 4/ span 25;
+  grid-row: 16;
+}
+
 .old {
   color: #ede8ca;
   font-weight: 700;
