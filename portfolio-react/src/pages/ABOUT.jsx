@@ -90,7 +90,7 @@ const ABOUT = () => {
           <img src={chu} alt="cat" />
         </InView>
         <InView d={"grid"} delay={0.5}>
-          <p className="aboutMainText">Little Chu! My pet cat who's about to 7, what a middle aged man.</p>
+          <p className="aboutMainText">Little Chu! My pet cat who's about to be 7, what a middle aged man.</p>
         </InView>
         <InView d={"grid"} delay={0.5}>
           <p className="aboutSubtitle">BOOKS:</p>
