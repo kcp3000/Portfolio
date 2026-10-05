@@ -1,5 +1,5 @@
 import { useState } from "react"
-import resume from "../resume/Kevin Deleon_Resume 9-5-25.pdf"
+import resume from "../resume/Kevin Deleon_Resume 10-3-26.pdf"
 import AppearText from "./AppearText"
 import { Link } from "react-router-dom"
 import hambuger from "../images/hambuger.png"

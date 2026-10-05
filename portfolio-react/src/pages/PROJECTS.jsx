@@ -11,6 +11,7 @@ import y2k1 from "../images/y2k/y2k1.png"
 import Phx from "../images/Phx.png"
 import gallery from "../images/gallery.png"
 import landing from "../images/WILL/landing.jpg"
+import dex from "../images/DEX/pokedex1.png"
 import { useState } from "react"
 
 //https://waste-wise.onrender.com
@@ -50,6 +51,23 @@ const PROJECT = () => {
         <div className="SWEMobile_container">
           <div className="inner_child">
             <InView d={"grid"} delay={0.5}>
+              <p className="title_caption">Dexnav-Pokedex</p>
+              <div className="testblock">
+                <img className="dex" src={dex} alt="screenshot_of_pokedex" />
+              </div>
+            </InView>
+            <InView d={"grid"} delay={1}>
+              <div className="Smalltestblock">
+                <p className="projectMainText">
+                  Find your favorite pokemon using my Y2K-inspired pokedex arcoss ALL 9 generation of pokemon!
+                </p>
+                <Link to="/DEX" className="Project_link">MAIN PAGE</Link>
+              </div>
+            </InView>
+          </div>
+          
+          <div className="inner_child">
+            <InView d={"grid"} delay={0.5}>
               <p className="title_caption">SWE Fullstack --WasteWise</p>
               <div className="testblock">
                 <img className="waste" src={waste1} alt="screenshot_of_wastewise" />
@@ -63,7 +81,7 @@ const PROJECT = () => {
                   We also promote sustainability by educating the public and showcasing volunteer opportunities, while providing restaurants and companies a simplified food donation network to ensure surplus food reaches people in need.
                   All in all, we aim to build a more sustainable and fair food system for our city.
                 </p>
-                <a href="https://waste-wise.onrender.com" className="Project_link" target="blank_">SITE</a>
+                <Link to="/WasteWise" className="Project_link">MAIN PAGE</Link>
               </div>
             </InView>
           </div>
@@ -97,7 +115,7 @@ const PROJECT = () => {
                   The start of my coding journey, this website was more of a practice run for my CSS and HTML skills back when I started to really
                   get into coding. It consist of things that I find interesting utilizing the Y2K's ERA aesthetic.
                 </p>
-                <a href="https://kcp3000.github.io/Y2K/" className="Project_link" target="blank_">SITE</a>
+                <Link to="/Y2K" className="Project_link">MAIN PAGE</Link>
               </div>
             </InView>
           </div>
@@ -123,11 +141,9 @@ const PROJECT = () => {
         <div className="designMobile_container">
           <div className="inner_child">
             <InView d={"grid"} delay={0.5}>
-              <p className="title_caption">PROMETHEUS-- WeWILLThruSports Redesign</p>
+              <p className="title_caption">PROMETHEUS-- WWTS Redesign</p>
               <div className="testblock">
-                <div className="UXWill">
-                  <img src={landing} alt="" />
-                </div>
+                  <img className="ux" src={landing} alt="landing page of WWTS redesign" />
               </div>
             </InView>
             <InView d={"grid"} delay={0.5}>
@@ -250,10 +266,32 @@ const PROJECT = () => {
         </div>
       </div>
 
+
+
+
+
       <div className="SWE_container">
         <SlideAnimateY delay={1.5} yH={50}>
           <h1 className="inner_text">SWE</h1>
         </SlideAnimateY>
+
+        <div className="inner_child">
+          <InView d={"grid"} delay={0.5}>
+            <p className="title_caption">Dexnav-Pokedex</p>
+            <div className="testblock">
+              <img className="dex" src={dex} alt="screenshot_of_pokedex" />
+            </div>
+          </InView>
+          <InView d={"grid"} delay={1}>
+            <div className="Smalltestblock">
+              <p className="projectMainText">
+                Find your favorite pokemon using my Y2K-inspired pokedex arcoss ALL 9 generation of pokemon!
+              </p>
+              <Link to="/DEX" className="Project_link">MAIN PAGE</Link>
+              {/* <a href="https://dexnav-pokedex.vercel.app/" className="Project_link">SITE</a> */}
+            </div>
+          </InView>
+        </div>
 
         <div className="inner_child">
           <InView d={"grid"} delay={2}>
@@ -270,7 +308,7 @@ const PROJECT = () => {
                 We also promote sustainability by educating the public and showcasing volunteer opportunities, while providing restaurants and companies a simplified food donation network to ensure surplus food reaches people in need.
                 All in all, we aim to build a more sustainable and fair food system for our city.
               </p>
-              <a href="https://waste-wise.onrender.com" className="Project_link" target="blank_">SITE</a>
+              <Link to="/WasteWise" className="Project_link">MAIN PAGE</Link>
             </div>
           </InView>
         </div>
@@ -304,7 +342,7 @@ const PROJECT = () => {
                 The start of my coding journey, this website was more of a practice run for my CSS and HTML skills back when I started to really
                 get into coding. It consist of things that I find interesting utilizing the Y2K's ERA aesthetic.
               </p>
-              <a href="https://kcp3000.github.io/Y2K/" className="Project_link" target="blank_">SITE</a>
+              <Link to="/Y2K" className="Project_link">MAIN PAGE</Link>
             </div>
           </InView>
         </div>
