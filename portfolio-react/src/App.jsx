@@ -3,6 +3,7 @@ import Y2K from "./PROJECTSFOLD/Y2K"
 import WasteWise from "./PROJECTSFOLD/WasteWise"
 import CAW from "./PROJECTSFOLD/CAW"
 import WILL from "./PROJECTSFOLD/WILL"
+import DEX from "./PROJECTSFOLD/DEX"
 import PROJECTS from "./pages/PROJECTS"
 import NotFoundPage from "./pages/NotFoundPage"
 import ScrollToTop from "./components/ScrollToTop"
@@ -10,6 +11,7 @@ import NavBar from "./components/NavBar"
 import AppearText from "./components/AppearText"
 import ABOUT from "./pages/ABOUT"
 import { Routes, Route } from "react-router-dom"
+
 
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/WILL' element={<WILL />} />
+      <Route path='/DEX' element={<DEX />} />
       <Route path='/Y2K' element={<Y2K />} />
       <Route path='/WasteWise' element={<WasteWise />} />
       <Route path='/CAW' element={<CAW />} />
