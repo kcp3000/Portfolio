@@ -20,7 +20,7 @@ const DEX = () => {
           <a href="https://github.com/kcp3000/project-pokedex" className="Project_link" target="blank_">GITHUB</a>
         </SlideAnimateX>
         <SlideAnimateX delay={1.5} xH={-50}>
-          <a href="//https://dexnav-pokedex.vercel.app/" className="Project_link" target="blank_">SITE</a>
+          <a href="https://dexnav-pokedex.vercel.app/" className="Project_link" target="blank_">SITE</a>
         </SlideAnimateX>
         <SlideAnimateX delay={1.5} xH={-50}>
           <p className="prompt">Find your MON!</p>
