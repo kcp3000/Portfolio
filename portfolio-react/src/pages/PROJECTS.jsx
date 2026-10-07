@@ -190,6 +190,7 @@ const PROJECT = () => {
                 <div className="Smalltestblock">
                   <p className="projectMainText">Redesigned a flyer for my brother's Training Camp using Figma :)</p>
                 </div>
+                <a href="https://www.figma.com/design/sKP1G5hsdG6BFeygIhqCyx/bryan-s-flyer?node-id=0-1&t=fyqg5jzUodp2Dz3f-1" className="Project_link">FIGMA</a>
               </InView>
             </div>
           </div>
@@ -262,6 +263,7 @@ const PROJECT = () => {
             <div className="Smalltestblock">
               <p className="projectMainText">Redesigned a flyer for my brother's Training Camp using Figma :)</p>
             </div>
+            <a href="https://www.figma.com/design/sKP1G5hsdG6BFeygIhqCyx/bryan-s-flyer?node-id=0-1&t=fyqg5jzUodp2Dz3f-1" className="Project_link">FIGMA</a>
           </InView>
         </div>
       </div>
