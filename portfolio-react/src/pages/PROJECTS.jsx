@@ -189,7 +189,7 @@ const PROJECT = () => {
               <InView d={"grid"} delay={0.5}>
                 <div className="Smalltestblock">
                   <p className="projectMainText">Redesigned a flyer for my brother's Training Camp using Figma :)</p>
-                  <a href="https://www.figma.com/design/sKP1G5hsdG6BFeygIhqCyx/bryan-s-flyer?node-id=0-1&t=fyqg5jzUodp2Dz3f-1" className="Project_link">FIGMA</a>
+                  <a href="https://www.figma.com/design/sKP1G5hsdG6BFeygIhqCyx/bryan-s-flyer?node-id=0-1&t=fyqg5jzUodp2Dz3f-1" className="Project_link" target="blank_">FIGMA</a>
                 </div>
                 
               </InView>
@@ -263,8 +263,8 @@ const PROJECT = () => {
           <InView d={"grid"} delay={0.5}>
             <div className="Smalltestblock">
               <p className="projectMainText">Redesigned a flyer for my brother's Training Camp using Figma :)</p>
+              <a href="https://www.figma.com/design/sKP1G5hsdG6BFeygIhqCyx/bryan-s-flyer?node-id=0-1&t=fyqg5jzUodp2Dz3f-1" className="Project_link" target="blank_">FIGMA</a>
             </div>
-            <a href="https://www.figma.com/design/sKP1G5hsdG6BFeygIhqCyx/bryan-s-flyer?node-id=0-1&t=fyqg5jzUodp2Dz3f-1" className="Project_link">FIGMA</a>
           </InView>
         </div>
       </div>
